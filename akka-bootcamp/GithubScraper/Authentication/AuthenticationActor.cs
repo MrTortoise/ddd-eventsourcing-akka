@@ -4,7 +4,7 @@ using Octokit;
 
 namespace GithubScraper
 {
-    public class GithubAuthenticationActor : ReceiveActor, ILogReceive
+    public class AuthenticationActor : ReceiveActor, ILogReceive
     {
         public const string Name = "authenticator";
         public const string Path = "/user/serviceActor/authenticator";
@@ -14,10 +14,10 @@ namespace GithubScraper
 
         public static Props CreateProps(Action<string, string> statusUpdater)
         {
-            return Props.Create(() => new GithubAuthenticationActor(statusUpdater));
+            return Props.Create(() => new AuthenticationActor(statusUpdater));
         }
 
-        public GithubAuthenticationActor(Action<string, string> statusUpdate)
+        public AuthenticationActor(Action<string, string> statusUpdate)
         {
             _statusUpdate = statusUpdate;
             BecomeUnauthenticated("just starting");

@@ -131,7 +131,7 @@ namespace GithubScraper
                 //this is our first subscriber, which means we need to turn publishing on
                 if (_subscribers.Count == 0)
                 {
-                    Context.System.Scheduler.ScheduleTellRepeatedly(TimeSpan.FromMilliseconds(100), TimeSpan.FromMilliseconds(100),
+                    Context.System.Scheduler.ScheduleTellRepeatedly(TimeSpan.FromMilliseconds(1000), TimeSpan.FromMilliseconds(1000),
                         Self, PublishUpdate.Instance, Self, _publishTimer);
                 }
 

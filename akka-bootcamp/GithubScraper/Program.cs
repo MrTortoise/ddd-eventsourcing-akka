@@ -39,8 +39,6 @@ namespace GithubScraper
         }
     }
     
- 
-     // https://github.com/MrTortoise/DangerZone
-    // https://github.com/eproxus/meck
+
 
 }

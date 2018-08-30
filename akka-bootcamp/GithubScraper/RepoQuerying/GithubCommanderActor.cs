@@ -9,10 +9,12 @@ namespace GithubScraper
     /// </summary>
     public class GithubCommanderActor : ReceiveActor
     {
-        private IActorRef _coordinator;
-        private IActorRef _canAcceptJobSender;
         public const string Path = "/user/serviceActor/commander";
         public const string Name = "commander";
+        
+        private IActorRef _coordinator;
+        private IActorRef _canAcceptJobSender;
+        private int pendingJobReplies;
         
         
         public static Props CreateProps()
@@ -41,7 +43,7 @@ namespace GithubScraper
                 _coordinator.Tell(new GithubCoordinatorActor.BeginJob(job.Repo));
 
                 //launch the new window to view results of the processing
-                Context.ActorSelection(MainFormActor.Path).Tell(new MainFormActor.LaunchRepoResultsWindow(job.Repo, Sender));
+                Context.ActorSelection(ServiceActor.Path).Tell(new ServiceActor.StartOutputActorSubscription(job.Repo, Sender));
             });
         }
 

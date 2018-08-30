@@ -8,25 +8,26 @@ namespace GithubScraper
     /// <summary>
     /// Actor has one job - ensure that a public repo exists at the specified address
     /// </summary>
-    public class GithubValidatorActor : ReceiveActor
+    public class RepositoryValidationActor : ReceiveActor
     {
         public const string Path = "/user/serviceActor/validator";
         public const string Name = "validator";
-        
+
         public static Tuple<string, string> SplitIntoOwnerAndRepo(string repoUri)
         {
-            var split = new Uri(repoUri, UriKind.Absolute).PathAndQuery.TrimEnd('/').Split('/').Reverse().ToList(); //uri path without trailing slash
+            var split = new Uri(repoUri, UriKind.Absolute).PathAndQuery.TrimEnd('/').Split('/').Reverse()
+                .ToList(); //uri path without trailing slash
             return Tuple.Create(split[1], split[0]); //User, Repo
         }
-        
+
         public static Props CreateProps(GitHubClient getClient)
         {
-               return Props.Create(()=> new GithubValidatorActor(getClient));
+            return Props.Create(() => new RepositoryValidationActor(getClient));
         }
-        
+
         private readonly IGitHubClient _gitHubClient;
 
-        public GithubValidatorActor(IGitHubClient gitHubClient)
+        public RepositoryValidationActor(IGitHubClient gitHubClient)
         {
             _gitHubClient = gitHubClient;
             ReadyToValidate();
@@ -35,7 +36,9 @@ namespace GithubScraper
         private void ReadyToValidate()
         {
             //Outright invalid URLs
-            Receive<ValidateRepo>(repo => string.IsNullOrEmpty(repo.RepoUri) || !Uri.IsWellFormedUriString(repo.RepoUri, UriKind.Absolute),
+            Receive<ValidateRepo>(
+                repo => string.IsNullOrEmpty(repo.RepoUri) ||
+                        !Uri.IsWellFormedUriString(repo.RepoUri, UriKind.Absolute),
                 repo => Sender.Tell(new InvalidRepo(repo.RepoUri, "Not a valid absolute URI")));
 
             //Repos that at least have a valid absolute URL
@@ -51,9 +54,11 @@ namespace GithubScraper
                     {
                         return new InvalidRepo(repo.RepoUri, "Repo lookup timed out");
                     }
+
                     if (t.IsFaulted)
                     {
-                        return new InvalidRepo(repo.RepoUri, t.Exception != null ? t.Exception.GetBaseException().Message : "Unknown Octokit error");
+                        return new InvalidRepo(repo.RepoUri,
+                            t.Exception != null ? t.Exception.GetBaseException().Message : "Unknown Octokit error");
                     }
 
                     return t.Result;
@@ -68,22 +73,22 @@ namespace GithubScraper
             Receive<Repository>(repository =>
             {
                 //ask the GithubCommander if we can accept this job
-                Context.ActorSelection(GithubCommanderActor.Path).Tell(new GithubCommanderActor.CanAcceptJob(new RepoKey(repository.Owner.Login, repository.Name)));
+                Context.ActorSelection(GithubCommanderActor.Path).Tell(
+                    new GithubCommanderActor.CanAcceptJob(new RepoKey(repository.Owner.Login, repository.Name)));
             });
 
 
             /* REPO is valid, but can we process it at this time? */
 
             //yes
-            Receive<GithubCommanderActor.UnableToAcceptJob>(job => Context.ActorSelection(MainFormActor.Path).Tell(job));
-            
+            Receive<GithubCommanderActor.UnableToAcceptJob>(job =>
+                Context.ActorSelection(ServiceActor.Path).Tell(job));
+
             //no
-            Receive<GithubCommanderActor.AbleToAcceptJob>(job => Context.ActorSelection(MainFormActor.Path).Tell(job));
+            Receive<GithubCommanderActor.AbleToAcceptJob>(job => Context.ActorSelection(ServiceActor.Path).Tell(job));
         }
 
- 
-        
-        
+
         public class ValidateRepo
         {
             public ValidateRepo(string repoUri)
@@ -110,7 +115,9 @@ namespace GithubScraper
         /// <summary>
         /// System is unable to process additional repos at this time
         /// </summary>
-        public class SystemBusy {  }
+        public class SystemBusy
+        {
+        }
 
         /// <summary>
         /// This is a valid repository
@@ -123,11 +130,16 @@ namespace GithubScraper
              * Considered to be a good practice to eliminate unnecessary garbage collection,
              * and it's used internally inside Akka.NET for similar scenarios.
              */
-            private RepoIsValid() { }
-            private static readonly RepoIsValid _instance = new RepoIsValid();
-            public static RepoIsValid Instance { get { return _instance; } }
-        }
+            private RepoIsValid()
+            {
+            }
 
- 
+            private static readonly RepoIsValid _instance = new RepoIsValid();
+
+            public static RepoIsValid Instance
+            {
+                get { return _instance; }
+            }
+        }
     }
 }
