@@ -17,7 +17,7 @@ namespace GithubScraper
                 .MinimumLevel.Debug()
                 .CreateLogger();
 
-            Serilog.Log.Logger = logger;
+            Log.Logger = logger;
             
             var cfg = ConfigurationFactory.ParseString(File.ReadAllText("config.hocon"));
             var system = ActorSystem.Create("GitHubScraper", cfg);
@@ -38,7 +38,7 @@ namespace GithubScraper
             }
         }
     }
-    
+
 
 
 }

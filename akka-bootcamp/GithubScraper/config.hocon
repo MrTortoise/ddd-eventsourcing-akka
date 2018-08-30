@@ -12,9 +12,6 @@
        event-stream = on
        unhandled = on
      }    
-     /servicaActor/commander/coordinator{
-       router = broadcast-pool
-       nr-of-instances = 3
-     } 
+  
    }
  }

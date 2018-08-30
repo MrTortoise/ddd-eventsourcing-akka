@@ -1,1 +1,3278 @@
-[]
+[
+  {
+    "Owner": null,
+    "Name": "libgit2",
+    "HtmlUrl": "https://github.com/libgit2/libgit2",
+    "SharedStarrers": 2,
+    "OpenIssuesCount": 261,
+    "StargazersCount": 6606,
+    "ForksCount": 1679
+  },
+  {
+    "Owner": null,
+    "Name": "flask",
+    "HtmlUrl": "https://github.com/pallets/flask",
+    "SharedStarrers": 2,
+    "OpenIssuesCount": 38,
+    "StargazersCount": 38441,
+    "ForksCount": 11213
+  },
+  {
+    "Owner": null,
+    "Name": "talon-for-twitter-android",
+    "HtmlUrl": "https://github.com/klinker24/talon-for-twitter-android",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 47,
+    "StargazersCount": 722,
+    "ForksCount": 89
+  },
+  {
+    "Owner": null,
+    "Name": "truffleHog",
+    "HtmlUrl": "https://github.com/dxa4481/truffleHog",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 35,
+    "StargazersCount": 2700,
+    "ForksCount": 328
+  },
+  {
+    "Owner": null,
+    "Name": "mill",
+    "HtmlUrl": "https://github.com/lihaoyi/mill",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 47,
+    "StargazersCount": 971,
+    "ForksCount": 107
+  },
+  {
+    "Owner": null,
+    "Name": "free-tagless-compare-pres",
+    "HtmlUrl": "https://github.com/adamw/free-tagless-compare-pres",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 17,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "configraun",
+    "HtmlUrl": "https://github.com/guardian/configraun",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 4,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "gigahorse",
+    "HtmlUrl": "https://github.com/eed3si9n/gigahorse",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 16,
+    "StargazersCount": 99,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "intergif",
+    "HtmlUrl": "https://github.com/pdh11/intergif",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "play-json",
+    "HtmlUrl": "https://github.com/playframework/play-json",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 34,
+    "StargazersCount": 168,
+    "ForksCount": 69
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-web-scalajs",
+    "HtmlUrl": "https://github.com/vmunier/sbt-web-scalajs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 171,
+    "ForksCount": 21
+  },
+  {
+    "Owner": null,
+    "Name": "scalajs-bundler",
+    "HtmlUrl": "https://github.com/scalacenter/scalajs-bundler",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 51,
+    "StargazersCount": 151,
+    "ForksCount": 56
+  },
+  {
+    "Owner": null,
+    "Name": "crdt",
+    "HtmlUrl": "https://github.com/lihaoyi/crdt",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 10,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "crjdt",
+    "HtmlUrl": "https://github.com/fthomas/crjdt",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 214,
+    "ForksCount": 11
+  },
+  {
+    "Owner": null,
+    "Name": "web-dictaphone",
+    "HtmlUrl": "https://github.com/mdn/web-dictaphone",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 156,
+    "ForksCount": 63
+  },
+  {
+    "Owner": null,
+    "Name": "awslogs",
+    "HtmlUrl": "https://github.com/jorgebastida/awslogs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 90,
+    "StargazersCount": 2188,
+    "ForksCount": 146
+  },
+  {
+    "Owner": null,
+    "Name": "git-secrets",
+    "HtmlUrl": "https://github.com/awslabs/git-secrets",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 22,
+    "StargazersCount": 3992,
+    "ForksCount": 251
+  },
+  {
+    "Owner": null,
+    "Name": "blinkt",
+    "HtmlUrl": "https://github.com/pimoroni/blinkt",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 162,
+    "ForksCount": 64
+  },
+  {
+    "Owner": null,
+    "Name": "power-mode-intellij-plugin",
+    "HtmlUrl": "https://github.com/axaluss/power-mode-intellij-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 181,
+    "ForksCount": 19
+  },
+  {
+    "Owner": null,
+    "Name": "visualvm",
+    "HtmlUrl": "https://github.com/oracle/visualvm",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 41,
+    "StargazersCount": 913,
+    "ForksCount": 123
+  },
+  {
+    "Owner": null,
+    "Name": "Adafruit_nRF52_Arduino",
+    "HtmlUrl": "https://github.com/adafruit/Adafruit_nRF52_Arduino",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 60,
+    "StargazersCount": 116,
+    "ForksCount": 70
+  },
+  {
+    "Owner": null,
+    "Name": "arduino-board-index",
+    "HtmlUrl": "https://github.com/adafruit/arduino-board-index",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 18,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "tinyb",
+    "HtmlUrl": "https://github.com/intel-iot-devkit/tinyb",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 58,
+    "StargazersCount": 120,
+    "ForksCount": 62
+  },
+  {
+    "Owner": null,
+    "Name": "Adafruit_Python_BluefruitLE",
+    "HtmlUrl": "https://github.com/adafruit/Adafruit_Python_BluefruitLE",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 21,
+    "StargazersCount": 240,
+    "ForksCount": 88
+  },
+  {
+    "Owner": null,
+    "Name": "regexr",
+    "HtmlUrl": "https://github.com/gskinner/regexr",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 50,
+    "StargazersCount": 4887,
+    "ForksCount": 542
+  },
+  {
+    "Owner": null,
+    "Name": "big-list-of-naughty-strings",
+    "HtmlUrl": "https://github.com/minimaxir/big-list-of-naughty-strings",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 44,
+    "StargazersCount": 24115,
+    "ForksCount": 996
+  },
+  {
+    "Owner": null,
+    "Name": "letsencrypt-route53",
+    "HtmlUrl": "https://github.com/paul/letsencrypt-route53",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 19,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "node-acme-lambda",
+    "HtmlUrl": "https://github.com/ocelotconsulting/node-acme-lambda",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 8,
+    "StargazersCount": 69,
+    "ForksCount": 29
+  },
+  {
+    "Owner": null,
+    "Name": "play-scala-streaming-example",
+    "HtmlUrl": "https://github.com/playframework/play-scala-streaming-example",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 39,
+    "ForksCount": 21
+  },
+  {
+    "Owner": null,
+    "Name": "odometer",
+    "HtmlUrl": "https://github.com/HubSpot/odometer",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 86,
+    "StargazersCount": 6368,
+    "ForksCount": 532
+  },
+  {
+    "Owner": null,
+    "Name": "sparkle",
+    "HtmlUrl": "https://github.com/mighdoll/sparkle",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 142,
+    "ForksCount": 17
+  },
+  {
+    "Owner": null,
+    "Name": "SparkFun_MLX90614_Arduino_Library",
+    "HtmlUrl": "https://github.com/sparkfun/SparkFun_MLX90614_Arduino_Library",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 13,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "re2j",
+    "HtmlUrl": "https://github.com/google/re2j",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 14,
+    "StargazersCount": 648,
+    "ForksCount": 86
+  },
+  {
+    "Owner": null,
+    "Name": "viewability",
+    "HtmlUrl": "https://github.com/kahwee/viewability",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 8,
+    "StargazersCount": 26,
+    "ForksCount": 13
+  },
+  {
+    "Owner": null,
+    "Name": "inputs",
+    "HtmlUrl": "https://github.com/zeth/inputs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 78,
+    "ForksCount": 22
+  },
+  {
+    "Owner": null,
+    "Name": "login.gutools",
+    "HtmlUrl": "https://github.com/guardian/login.gutools",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 2,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "workbench-example-app",
+    "HtmlUrl": "https://github.com/lihaoyi/workbench-example-app",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 13,
+    "StargazersCount": 198,
+    "ForksCount": 108
+  },
+  {
+    "Owner": null,
+    "Name": "autowire",
+    "HtmlUrl": "https://github.com/lihaoyi/autowire",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 34,
+    "StargazersCount": 319,
+    "ForksCount": 33
+  },
+  {
+    "Owner": null,
+    "Name": "pan-domain-authentication",
+    "HtmlUrl": "https://github.com/guardian/pan-domain-authentication",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 3,
+    "ForksCount": 8
+  },
+  {
+    "Owner": null,
+    "Name": "floodgate",
+    "HtmlUrl": "https://github.com/guardian/floodgate",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 3,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "govuk-prototype-kit",
+    "HtmlUrl": "https://github.com/alphagov/govuk-prototype-kit",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 51,
+    "StargazersCount": 181,
+    "ForksCount": 137
+  },
+  {
+    "Owner": null,
+    "Name": "gudocs",
+    "HtmlUrl": "https://github.com/guardian/gudocs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "dynamic-dynamodb",
+    "HtmlUrl": "https://github.com/sebdah/dynamic-dynamodb",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 32,
+    "StargazersCount": 583,
+    "ForksCount": 127
+  },
+  {
+    "Owner": null,
+    "Name": "fliclib-linux-hci",
+    "HtmlUrl": "https://github.com/50ButtonsEach/fliclib-linux-hci",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 30,
+    "StargazersCount": 180,
+    "ForksCount": 29
+  },
+  {
+    "Owner": null,
+    "Name": "Adafruit-WebIDE",
+    "HtmlUrl": "https://github.com/adafruit/Adafruit-WebIDE",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 437,
+    "ForksCount": 75
+  },
+  {
+    "Owner": null,
+    "Name": "FastLED",
+    "HtmlUrl": "https://github.com/FastLED/FastLED",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 134,
+    "StargazersCount": 2412,
+    "ForksCount": 594
+  },
+  {
+    "Owner": null,
+    "Name": "ssl-config",
+    "HtmlUrl": "https://github.com/lightbend/ssl-config",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 32,
+    "StargazersCount": 50,
+    "ForksCount": 31
+  },
+  {
+    "Owner": null,
+    "Name": "riff-raff",
+    "HtmlUrl": "https://github.com/guardian/riff-raff",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 226,
+    "ForksCount": 17
+  },
+  {
+    "Owner": null,
+    "Name": "scanamo",
+    "HtmlUrl": "https://github.com/scanamo/scanamo",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 37,
+    "StargazersCount": 182,
+    "ForksCount": 65
+  },
+  {
+    "Owner": null,
+    "Name": "LIDAR-Lite-Documentation",
+    "HtmlUrl": "https://github.com/PulsedLight3D/LIDAR-Lite-Documentation",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 12,
+    "ForksCount": 15
+  },
+  {
+    "Owner": null,
+    "Name": "kalium",
+    "HtmlUrl": "https://github.com/abstractj/kalium",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 178,
+    "ForksCount": 68
+  },
+  {
+    "Owner": null,
+    "Name": "circe",
+    "HtmlUrl": "https://github.com/circe/circe",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 112,
+    "StargazersCount": 1422,
+    "ForksCount": 297
+  },
+  {
+    "Owner": null,
+    "Name": "metarest",
+    "HtmlUrl": "https://github.com/pathikrit/metarest",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 184,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "simulacrum",
+    "HtmlUrl": "https://github.com/mpilquist/simulacrum",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 32,
+    "StargazersCount": 678,
+    "ForksCount": 45
+  },
+  {
+    "Owner": null,
+    "Name": "local-implicits",
+    "HtmlUrl": "https://github.com/mpilquist/local-implicits",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 54,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "REPLesent",
+    "HtmlUrl": "https://github.com/marconilanna/REPLesent",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 362,
+    "ForksCount": 31
+  },
+  {
+    "Owner": null,
+    "Name": "making-music",
+    "HtmlUrl": "https://github.com/stevekinney/making-music",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 64,
+    "ForksCount": 5
+  },
+  {
+    "Owner": null,
+    "Name": "octoclock",
+    "HtmlUrl": "https://github.com/dominickendrick/octoclock",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "recommendations",
+    "HtmlUrl": "https://github.com/guardian/recommendations",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 26,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "java-u2flib-server",
+    "HtmlUrl": "https://github.com/Yubico/java-u2flib-server",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 120,
+    "ForksCount": 50
+  },
+  {
+    "Owner": null,
+    "Name": "OctoAlert",
+    "HtmlUrl": "https://github.com/NicolasLambert/OctoAlert",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "python-zeroconf",
+    "HtmlUrl": "https://github.com/jstasiak/python-zeroconf",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 39,
+    "StargazersCount": 200,
+    "ForksCount": 82
+  },
+  {
+    "Owner": null,
+    "Name": "dnssdjava",
+    "HtmlUrl": "https://github.com/DanielN/dnssdjava",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 19,
+    "ForksCount": 11
+  },
+  {
+    "Owner": null,
+    "Name": "Adafruit_Python_LED_Backpack",
+    "HtmlUrl": "https://github.com/adafruit/Adafruit_Python_LED_Backpack",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 71,
+    "ForksCount": 52
+  },
+  {
+    "Owner": null,
+    "Name": "ContactSeparator",
+    "HtmlUrl": "https://github.com/marc-hanheide/ContactSeparator",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 7,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "gocardless-legacy-java",
+    "HtmlUrl": "https://github.com/gocardless/gocardless-legacy-java",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 10,
+    "ForksCount": 6
+  },
+  {
+    "Owner": null,
+    "Name": "scala-time",
+    "HtmlUrl": "https://github.com/reactivecodes/scala-time",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 57,
+    "ForksCount": 5
+  },
+  {
+    "Owner": null,
+    "Name": "travis-api",
+    "HtmlUrl": "https://github.com/travis-ci/travis-api",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 30,
+    "StargazersCount": 225,
+    "ForksCount": 128
+  },
+  {
+    "Owner": null,
+    "Name": "gcs",
+    "HtmlUrl": "https://github.com/rasky/gcs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 79,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "bloomfilter.js",
+    "HtmlUrl": "https://github.com/jasondavies/bloomfilter.js",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 7,
+    "StargazersCount": 563,
+    "ForksCount": 73
+  },
+  {
+    "Owner": null,
+    "Name": "jsoup",
+    "HtmlUrl": "https://github.com/jhy/jsoup",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 142,
+    "StargazersCount": 6298,
+    "ForksCount": 1522
+  },
+  {
+    "Owner": null,
+    "Name": "jwt-scala",
+    "HtmlUrl": "https://github.com/pauldijou/jwt-scala",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 356,
+    "ForksCount": 61
+  },
+  {
+    "Owner": null,
+    "Name": "jwt-scala",
+    "HtmlUrl": "https://github.com/reallylabs/jwt-scala",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 37,
+    "ForksCount": 22
+  },
+  {
+    "Owner": null,
+    "Name": "typeahead.js-bootstrap3.less",
+    "HtmlUrl": "https://github.com/hyspace/typeahead.js-bootstrap3.less",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 11,
+    "StargazersCount": 211,
+    "ForksCount": 64
+  },
+  {
+    "Owner": null,
+    "Name": "play-bootstrap",
+    "HtmlUrl": "https://github.com/adrianhurt/play-bootstrap",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 661,
+    "ForksCount": 74
+  },
+  {
+    "Owner": null,
+    "Name": "typeahead.js",
+    "HtmlUrl": "https://github.com/twitter/typeahead.js",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 478,
+    "StargazersCount": 15351,
+    "ForksCount": 3254
+  },
+  {
+    "Owner": null,
+    "Name": "jQuery.Autosize.Input",
+    "HtmlUrl": "https://github.com/MartinF/jQuery.Autosize.Input",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 16,
+    "StargazersCount": 89,
+    "ForksCount": 37
+  },
+  {
+    "Owner": null,
+    "Name": "submitgit",
+    "HtmlUrl": "https://github.com/rtyley/submitgit",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 12,
+    "StargazersCount": 41,
+    "ForksCount": 13
+  },
+  {
+    "Owner": null,
+    "Name": "content-authorisation-proxy",
+    "HtmlUrl": "https://github.com/guardian/content-authorisation-proxy",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "jcabi-github",
+    "HtmlUrl": "https://github.com/jcabi/jcabi-github",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 107,
+    "StargazersCount": 171,
+    "ForksCount": 106
+  },
+  {
+    "Owner": null,
+    "Name": "rorschach",
+    "HtmlUrl": "https://github.com/twbs/rorschach",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 9,
+    "StargazersCount": 96,
+    "ForksCount": 10
+  },
+  {
+    "Owner": null,
+    "Name": "knockoff",
+    "HtmlUrl": "https://github.com/tristanjuricek/knockoff",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 12,
+    "StargazersCount": 102,
+    "ForksCount": 19
+  },
+  {
+    "Owner": null,
+    "Name": "com.zutubi.diff",
+    "HtmlUrl": "https://github.com/Zutubi/com.zutubi.diff",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 6,
+    "ForksCount": 5
+  },
+  {
+    "Owner": null,
+    "Name": "fs2",
+    "HtmlUrl": "https://github.com/functional-streams-for-scala/fs2",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 31,
+    "StargazersCount": 1163,
+    "ForksCount": 300
+  },
+  {
+    "Owner": null,
+    "Name": "communicator",
+    "HtmlUrl": "https://github.com/Taig/communicator",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 31,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-dependency-graph",
+    "HtmlUrl": "https://github.com/jrudolph/sbt-dependency-graph",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 42,
+    "StargazersCount": 987,
+    "ForksCount": 84
+  },
+  {
+    "Owner": null,
+    "Name": "machine-images",
+    "HtmlUrl": "https://github.com/guardian/machine-images",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 16,
+    "ForksCount": 6
+  },
+  {
+    "Owner": null,
+    "Name": "enumeratum",
+    "HtmlUrl": "https://github.com/lloydmeta/enumeratum",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 648,
+    "ForksCount": 64
+  },
+  {
+    "Owner": null,
+    "Name": "git-subrepo",
+    "HtmlUrl": "https://github.com/ingydotnet/git-subrepo",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 147,
+    "StargazersCount": 1479,
+    "ForksCount": 139
+  },
+  {
+    "Owner": null,
+    "Name": "RecyclerViewFastScroller",
+    "HtmlUrl": "https://github.com/danoz73/RecyclerViewFastScroller",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 54,
+    "StargazersCount": 988,
+    "ForksCount": 209
+  },
+  {
+    "Owner": null,
+    "Name": "prout",
+    "HtmlUrl": "https://github.com/guardian/prout",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 7,
+    "StargazersCount": 106,
+    "ForksCount": 8
+  },
+  {
+    "Owner": null,
+    "Name": "training-utils",
+    "HtmlUrl": "https://github.com/github/training-utils",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 98,
+    "ForksCount": 40
+  },
+  {
+    "Owner": null,
+    "Name": "scala-logging",
+    "HtmlUrl": "https://github.com/lightbend/scala-logging",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 14,
+    "StargazersCount": 593,
+    "ForksCount": 90
+  },
+  {
+    "Owner": null,
+    "Name": "Signal-Android",
+    "HtmlUrl": "https://github.com/signalapp/Signal-Android",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 219,
+    "StargazersCount": 10227,
+    "ForksCount": 2674
+  },
+  {
+    "Owner": null,
+    "Name": "galimatias",
+    "HtmlUrl": "https://github.com/smola/galimatias",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 29,
+    "StargazersCount": 126,
+    "ForksCount": 24
+  },
+  {
+    "Owner": null,
+    "Name": "sparse",
+    "HtmlUrl": "https://github.com/djspiewak/sparse",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 59,
+    "ForksCount": 4
+  },
+  {
+    "Owner": null,
+    "Name": "scala-java8-compat",
+    "HtmlUrl": "https://github.com/scala/scala-java8-compat",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 310,
+    "ForksCount": 43
+  },
+  {
+    "Owner": null,
+    "Name": "travis-build",
+    "HtmlUrl": "https://github.com/travis-ci/travis-build",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 89,
+    "StargazersCount": 472,
+    "ForksCount": 349
+  },
+  {
+    "Owner": null,
+    "Name": "scala-yinyang",
+    "HtmlUrl": "https://github.com/scala-yinyang/scala-yinyang",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 22,
+    "StargazersCount": 74,
+    "ForksCount": 14
+  },
+  {
+    "Owner": null,
+    "Name": "breeze",
+    "HtmlUrl": "https://github.com/scalanlp/breeze",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 98,
+    "StargazersCount": 2675,
+    "ForksCount": 628
+  },
+  {
+    "Owner": null,
+    "Name": "sticky-headers-recyclerview",
+    "HtmlUrl": "https://github.com/timehop/sticky-headers-recyclerview",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 75,
+    "StargazersCount": 3362,
+    "ForksCount": 708
+  },
+  {
+    "Owner": null,
+    "Name": "recyclerview-stickyheaders",
+    "HtmlUrl": "https://github.com/eowise/recyclerview-stickyheaders",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 17,
+    "StargazersCount": 971,
+    "ForksCount": 159
+  },
+  {
+    "Owner": null,
+    "Name": "acme-delegation",
+    "HtmlUrl": "https://github.com/bartschuller/acme-delegation",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "jquery-maven-artifact",
+    "HtmlUrl": "https://github.com/JakeWharton/jquery-maven-artifact",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 21,
+    "ForksCount": 5
+  },
+  {
+    "Owner": null,
+    "Name": "duckduck",
+    "HtmlUrl": "https://github.com/j2emanue/duckduck",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 11,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "SuperSaiyanScrollView",
+    "HtmlUrl": "https://github.com/nolanlawson/SuperSaiyanScrollView",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 79,
+    "ForksCount": 20
+  },
+  {
+    "Owner": null,
+    "Name": "RxAndroid",
+    "HtmlUrl": "https://github.com/ReactiveX/RxAndroid",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 16667,
+    "ForksCount": 2674
+  },
+  {
+    "Owner": null,
+    "Name": "jawn",
+    "HtmlUrl": "https://github.com/non/jawn",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 20,
+    "StargazersCount": 321,
+    "ForksCount": 46
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-riffraff-artifact",
+    "HtmlUrl": "https://github.com/guardian/sbt-riffraff-artifact",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 1,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-heroku",
+    "HtmlUrl": "https://github.com/heroku/sbt-heroku",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 92,
+    "ForksCount": 7
+  },
+  {
+    "Owner": null,
+    "Name": "swarmize",
+    "HtmlUrl": "https://github.com/guardian/swarmize",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 156,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "scodec",
+    "HtmlUrl": "https://github.com/scodec/scodec",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 562,
+    "ForksCount": 77
+  },
+  {
+    "Owner": null,
+    "Name": "adept",
+    "HtmlUrl": "https://github.com/adept-dm/adept",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 177,
+    "ForksCount": 11
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-pgp",
+    "HtmlUrl": "https://github.com/sbt/sbt-pgp",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 31,
+    "StargazersCount": 93,
+    "ForksCount": 45
+  },
+  {
+    "Owner": null,
+    "Name": "pgpverify-maven-plugin",
+    "HtmlUrl": "https://github.com/s4u/pgpverify-maven-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 8,
+    "StargazersCount": 15,
+    "ForksCount": 10
+  },
+  {
+    "Owner": null,
+    "Name": "spire",
+    "HtmlUrl": "https://github.com/non/spire",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 150,
+    "StargazersCount": 1368,
+    "ForksCount": 186
+  },
+  {
+    "Owner": null,
+    "Name": "traction",
+    "HtmlUrl": "https://github.com/gravitydev/traction",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 4,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "AWScala",
+    "HtmlUrl": "https://github.com/seratch/AWScala",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 52,
+    "StargazersCount": 595,
+    "ForksCount": 179
+  },
+  {
+    "Owner": null,
+    "Name": "js-git",
+    "HtmlUrl": "https://github.com/creationix/js-git",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 46,
+    "StargazersCount": 3415,
+    "ForksCount": 267
+  },
+  {
+    "Owner": null,
+    "Name": "graphosaurus",
+    "HtmlUrl": "https://github.com/frewsxcv/graphosaurus",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 22,
+    "StargazersCount": 287,
+    "ForksCount": 34
+  },
+  {
+    "Owner": null,
+    "Name": "logback",
+    "HtmlUrl": "https://github.com/qos-ch/logback",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 121,
+    "StargazersCount": 1353,
+    "ForksCount": 695
+  },
+  {
+    "Owner": null,
+    "Name": "status-app",
+    "HtmlUrl": "https://github.com/guardian/status-app",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 32,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "eventley-test",
+    "HtmlUrl": "https://github.com/obrienm/eventley-test",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "gu-who",
+    "HtmlUrl": "https://github.com/guardian/gu-who",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 17,
+    "StargazersCount": 196,
+    "ForksCount": 44
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-pless",
+    "HtmlUrl": "https://github.com/urbas/sbt-pless",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 3,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-sonatype-and-sbt-release-sample",
+    "HtmlUrl": "https://github.com/xuwei-k/sbt-sonatype-and-sbt-release-sample",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 5,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "CreditsRoll",
+    "HtmlUrl": "https://github.com/frakbot/CreditsRoll",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 401,
+    "ForksCount": 63
+  },
+  {
+    "Owner": null,
+    "Name": "scala-io",
+    "HtmlUrl": "https://github.com/jesseeichar/scala-io",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 31,
+    "StargazersCount": 136,
+    "ForksCount": 19
+  },
+  {
+    "Owner": null,
+    "Name": "summingbird",
+    "HtmlUrl": "https://github.com/twitter/summingbird",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 161,
+    "StargazersCount": 1978,
+    "ForksCount": 262
+  },
+  {
+    "Owner": null,
+    "Name": "gradle-release-plugin",
+    "HtmlUrl": "https://github.com/ari/gradle-release-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 52,
+    "ForksCount": 27
+  },
+  {
+    "Owner": null,
+    "Name": "smoothie",
+    "HtmlUrl": "https://github.com/lucasr/smoothie",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 1020,
+    "ForksCount": 182
+  },
+  {
+    "Owner": null,
+    "Name": "sse-chat",
+    "HtmlUrl": "https://github.com/matthiasn/sse-chat",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 390,
+    "ForksCount": 92
+  },
+  {
+    "Owner": null,
+    "Name": "pegdown",
+    "HtmlUrl": "https://github.com/sirthias/pegdown",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 90,
+    "StargazersCount": 1222,
+    "ForksCount": 223
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-extras",
+    "HtmlUrl": "https://github.com/paulp/sbt-extras",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 11,
+    "StargazersCount": 744,
+    "ForksCount": 142
+  },
+  {
+    "Owner": null,
+    "Name": "scala-uri",
+    "HtmlUrl": "https://github.com/NET-A-PORTER/scala-uri",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 275,
+    "ForksCount": 38
+  },
+  {
+    "Owner": null,
+    "Name": "sigshade",
+    "HtmlUrl": "https://github.com/kenlim/sigshade",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "hammersmith",
+    "HtmlUrl": "https://github.com/bwmcadams/hammersmith",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 160,
+    "ForksCount": 22
+  },
+  {
+    "Owner": null,
+    "Name": "intellij-sbt",
+    "HtmlUrl": "https://github.com/JetBrains/intellij-sbt",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 6,
+    "StargazersCount": 79,
+    "ForksCount": 8
+  },
+  {
+    "Owner": null,
+    "Name": "scala-async",
+    "HtmlUrl": "https://github.com/scala/scala-async",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 20,
+    "StargazersCount": 903,
+    "ForksCount": 77
+  },
+  {
+    "Owner": null,
+    "Name": "play-json-alone",
+    "HtmlUrl": "https://github.com/mandubian/play-json-alone",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 24,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "Java7-on-Android",
+    "HtmlUrl": "https://github.com/yareally/Java7-on-Android",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 91,
+    "ForksCount": 8
+  },
+  {
+    "Owner": null,
+    "Name": "user-day",
+    "HtmlUrl": "https://github.com/git-merge/user-day",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 19,
+    "ForksCount": 15
+  },
+  {
+    "Owner": null,
+    "Name": "git-imerge",
+    "HtmlUrl": "https://github.com/mhagger/git-imerge",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 37,
+    "StargazersCount": 1828,
+    "ForksCount": 99
+  },
+  {
+    "Owner": null,
+    "Name": "FitVids.js",
+    "HtmlUrl": "https://github.com/davatron5000/FitVids.js",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 32,
+    "StargazersCount": 4656,
+    "ForksCount": 1009
+  },
+  {
+    "Owner": null,
+    "Name": "chap-links-library",
+    "HtmlUrl": "https://github.com/almende/chap-links-library",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 123,
+    "StargazersCount": 581,
+    "ForksCount": 173
+  },
+  {
+    "Owner": null,
+    "Name": "jzlib",
+    "HtmlUrl": "https://github.com/ymnk/jzlib",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 9,
+    "StargazersCount": 124,
+    "ForksCount": 62
+  },
+  {
+    "Owner": null,
+    "Name": "webcam-pulse-detector",
+    "HtmlUrl": "https://github.com/thearn/webcam-pulse-detector",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 31,
+    "StargazersCount": 2599,
+    "ForksCount": 398
+  },
+  {
+    "Owner": null,
+    "Name": "Robohash",
+    "HtmlUrl": "https://github.com/e1ven/Robohash",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 678,
+    "ForksCount": 106
+  },
+  {
+    "Owner": null,
+    "Name": "play-libraries",
+    "HtmlUrl": "https://github.com/Rhinofly/play-libraries",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 36,
+    "ForksCount": 9
+  },
+  {
+    "Owner": null,
+    "Name": "rickshaw",
+    "HtmlUrl": "https://github.com/shutterstock/rickshaw",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 211,
+    "StargazersCount": 6278,
+    "ForksCount": 986
+  },
+  {
+    "Owner": null,
+    "Name": "reveal.js",
+    "HtmlUrl": "https://github.com/hakimel/reveal.js",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 373,
+    "StargazersCount": 42104,
+    "ForksCount": 12274
+  },
+  {
+    "Owner": null,
+    "Name": "repatch-github",
+    "HtmlUrl": "https://github.com/eed3si9n/repatch-github",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 7,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "RxJava",
+    "HtmlUrl": "https://github.com/ReactiveX/RxJava",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 24,
+    "StargazersCount": 35077,
+    "ForksCount": 6077
+  },
+  {
+    "Owner": null,
+    "Name": "libstreaming",
+    "HtmlUrl": "https://github.com/fyhertz/libstreaming",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 219,
+    "StargazersCount": 2275,
+    "ForksCount": 870
+  },
+  {
+    "Owner": null,
+    "Name": "android-eye",
+    "HtmlUrl": "https://github.com/Teaonly/android-eye",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 35,
+    "StargazersCount": 916,
+    "ForksCount": 480
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-git",
+    "HtmlUrl": "https://github.com/sbt/sbt-git",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 20,
+    "StargazersCount": 262,
+    "ForksCount": 79
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-buildinfo",
+    "HtmlUrl": "https://github.com/sbt/sbt-buildinfo",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 14,
+    "StargazersCount": 387,
+    "ForksCount": 65
+  },
+  {
+    "Owner": null,
+    "Name": "threetenbp",
+    "HtmlUrl": "https://github.com/ThreeTen/threetenbp",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 347,
+    "ForksCount": 76
+  },
+  {
+    "Owner": null,
+    "Name": "bfg-repo-cleaner",
+    "HtmlUrl": "https://github.com/rtyley/bfg-repo-cleaner",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 153,
+    "StargazersCount": 4337,
+    "ForksCount": 218
+  },
+  {
+    "Owner": null,
+    "Name": "mercury",
+    "HtmlUrl": "https://github.com/tackley/mercury",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 5,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "nscala-time",
+    "HtmlUrl": "https://github.com/nscala-time/nscala-time",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 775,
+    "ForksCount": 84
+  },
+  {
+    "Owner": null,
+    "Name": "roboguice",
+    "HtmlUrl": "https://github.com/roboguice/roboguice",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 150,
+    "StargazersCount": 3868,
+    "ForksCount": 911
+  },
+  {
+    "Owner": null,
+    "Name": "string-score",
+    "HtmlUrl": "https://github.com/rtyley/string-score",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "android-plugin",
+    "HtmlUrl": "https://github.com/rtyley/android-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "Android-PullToRefresh",
+    "HtmlUrl": "https://github.com/rtyley/Android-PullToRefresh",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 4,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "scala-rainbow",
+    "HtmlUrl": "https://github.com/ktoso/scala-rainbow",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 60,
+    "ForksCount": 7
+  },
+  {
+    "Owner": null,
+    "Name": "freshwiki",
+    "HtmlUrl": "https://github.com/rtyley/freshwiki",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "playground",
+    "HtmlUrl": "https://github.com/rtyley/playground",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "egit-github",
+    "HtmlUrl": "https://github.com/rtyley/egit-github",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-package-dist",
+    "HtmlUrl": "https://github.com/twitter-archive/sbt-package-dist",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 91,
+    "ForksCount": 29
+  },
+  {
+    "Owner": null,
+    "Name": "test-bc-java-cvsimport",
+    "HtmlUrl": "https://github.com/rtyley/test-bc-java-cvsimport",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "CustomFastScrollViewDemo",
+    "HtmlUrl": "https://github.com/nolanlawson/CustomFastScrollViewDemo",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 125,
+    "ForksCount": 73
+  },
+  {
+    "Owner": null,
+    "Name": "roboguice-sherlock",
+    "HtmlUrl": "https://github.com/rtyley/roboguice-sherlock",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 353,
+    "ForksCount": 107
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-closure",
+    "HtmlUrl": "https://github.com/eltimn/sbt-closure",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 21,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "absshadow-sample",
+    "HtmlUrl": "https://github.com/passy/absshadow-sample",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 8,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "test-ga",
+    "HtmlUrl": "https://github.com/rtyley/test-ga",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "repo-with-symlinks",
+    "HtmlUrl": "https://github.com/rtyley/repo-with-symlinks",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "protobuf-maven-plugin",
+    "HtmlUrl": "https://github.com/igor-petruk/protobuf-maven-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 37,
+    "ForksCount": 14
+  },
+  {
+    "Owner": null,
+    "Name": "android-screenshot-lib",
+    "HtmlUrl": "https://github.com/rtyley/android-screenshot-lib",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 279,
+    "ForksCount": 78
+  },
+  {
+    "Owner": null,
+    "Name": "animated-gif-lib-for-java",
+    "HtmlUrl": "https://github.com/rtyley/animated-gif-lib-for-java",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 65,
+    "ForksCount": 34
+  },
+  {
+    "Owner": null,
+    "Name": "gauges-android",
+    "HtmlUrl": "https://github.com/gaugesapp/gauges-android",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 726,
+    "ForksCount": 235
+  },
+  {
+    "Owner": null,
+    "Name": "HttpResponseCache",
+    "HtmlUrl": "https://github.com/candrews/HttpResponseCache",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 22,
+    "StargazersCount": 293,
+    "ForksCount": 53
+  },
+  {
+    "Owner": null,
+    "Name": "android_device_lge_startablet-1",
+    "HtmlUrl": "https://github.com/rtyley/android_device_lge_startablet-1",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "NineOldAndroids",
+    "HtmlUrl": "https://github.com/JakeWharton/NineOldAndroids",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 42,
+    "StargazersCount": 4422,
+    "ForksCount": 1649
+  },
+  {
+    "Owner": null,
+    "Name": "Android-ViewPagerIndicator",
+    "HtmlUrl": "https://github.com/rtyley/Android-ViewPagerIndicator",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "Android-PullToRefresh",
+    "HtmlUrl": "https://github.com/chrisbanes/Android-PullToRefresh",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 30,
+    "StargazersCount": 8734,
+    "ForksCount": 5104
+  },
+  {
+    "Owner": null,
+    "Name": "zt-zip",
+    "HtmlUrl": "https://github.com/zeroturnaround/zt-zip",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 929,
+    "ForksCount": 214
+  },
+  {
+    "Owner": null,
+    "Name": "cwac-anddown",
+    "HtmlUrl": "https://github.com/commonsguy/cwac-anddown",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 224,
+    "ForksCount": 37
+  },
+  {
+    "Owner": null,
+    "Name": "maven-android-plugin-samples",
+    "HtmlUrl": "https://github.com/rtyley/maven-android-plugin-samples",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "heroku-scala-sbt-scalatra",
+    "HtmlUrl": "https://github.com/rtyley/heroku-scala-sbt-scalatra",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "libgit2",
+    "HtmlUrl": "https://github.com/rtyley/libgit2",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "greenDAO",
+    "HtmlUrl": "https://github.com/greenrobot/greenDAO",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 149,
+    "StargazersCount": 10444,
+    "ForksCount": 2654
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-release",
+    "HtmlUrl": "https://github.com/sbt/sbt-release",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 65,
+    "StargazersCount": 480,
+    "ForksCount": 135
+  },
+  {
+    "Owner": null,
+    "Name": "heroku-scala-sbt-scalatra",
+    "HtmlUrl": "https://github.com/lstoll/heroku-scala-sbt-scalatra",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 8,
+    "ForksCount": 6
+  },
+  {
+    "Owner": null,
+    "Name": "github",
+    "HtmlUrl": "https://github.com/charroch/github",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "five-mb-file-test-repo",
+    "HtmlUrl": "https://github.com/rtyley/five-mb-file-test-repo",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "spongycastle-eclipse",
+    "HtmlUrl": "https://github.com/rtyley/spongycastle-eclipse",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 14,
+    "ForksCount": 12
+  },
+  {
+    "Owner": null,
+    "Name": "ViewPagerIndicator",
+    "HtmlUrl": "https://github.com/JakeWharton/ViewPagerIndicator",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 215,
+    "StargazersCount": 9879,
+    "ForksCount": 4292
+  },
+  {
+    "Owner": null,
+    "Name": "git",
+    "HtmlUrl": "https://github.com/rtyley/git",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "musicbrainz-android",
+    "HtmlUrl": "https://github.com/jdamcd/musicbrainz-android",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 17,
+    "StargazersCount": 85,
+    "ForksCount": 37
+  },
+  {
+    "Owner": null,
+    "Name": "DroidAtScreen1",
+    "HtmlUrl": "https://github.com/ribomation/DroidAtScreen1",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 17,
+    "StargazersCount": 379,
+    "ForksCount": 131
+  },
+  {
+    "Owner": null,
+    "Name": "maven-bash-completion",
+    "HtmlUrl": "https://github.com/juven/maven-bash-completion",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 19,
+    "StargazersCount": 352,
+    "ForksCount": 117
+  },
+  {
+    "Owner": null,
+    "Name": "markdownj",
+    "HtmlUrl": "https://github.com/rtyley/markdownj",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 9,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "android-pinned-header-listviews",
+    "HtmlUrl": "https://github.com/rtyley/android-pinned-header-listviews",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 47,
+    "ForksCount": 24
+  },
+  {
+    "Owner": null,
+    "Name": "gitective",
+    "HtmlUrl": "https://github.com/kevinsawicki/gitective",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 8,
+    "StargazersCount": 99,
+    "ForksCount": 39
+  },
+  {
+    "Owner": null,
+    "Name": "joda-time",
+    "HtmlUrl": "https://github.com/JodaOrg/joda-time",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 23,
+    "StargazersCount": 3695,
+    "ForksCount": 772
+  },
+  {
+    "Owner": null,
+    "Name": "android-viewflow",
+    "HtmlUrl": "https://github.com/pakerfeldt/android-viewflow",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 49,
+    "StargazersCount": 1841,
+    "ForksCount": 755
+  },
+  {
+    "Owner": null,
+    "Name": "av-footle",
+    "HtmlUrl": "https://github.com/rtyley/av-footle",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "robospecs",
+    "HtmlUrl": "https://github.com/jbrechtel/robospecs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 42,
+    "ForksCount": 10
+  },
+  {
+    "Owner": null,
+    "Name": "madgag-hamcrest-matchers",
+    "HtmlUrl": "https://github.com/rtyley/madgag-hamcrest-matchers",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "xsbt-proguard-plugin",
+    "HtmlUrl": "https://github.com/adamw/xsbt-proguard-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 67,
+    "ForksCount": 26
+  },
+  {
+    "Owner": null,
+    "Name": "egit-github",
+    "HtmlUrl": "https://github.com/eclipse/egit-github",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 596,
+    "ForksCount": 456
+  },
+  {
+    "Owner": null,
+    "Name": "maven-android-plugin",
+    "HtmlUrl": "https://github.com/rtyley/maven-android-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "string-score",
+    "HtmlUrl": "https://github.com/everpeace/string-score",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 8,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "mini-git-server",
+    "HtmlUrl": "https://github.com/rtyley/mini-git-server",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 32,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "toy-android-ssh-agent",
+    "HtmlUrl": "https://github.com/rtyley/toy-android-ssh-agent",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 5,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "spongycastle-old",
+    "HtmlUrl": "https://github.com/rtyley/spongycastle-old",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 88,
+    "ForksCount": 34
+  },
+  {
+    "Owner": null,
+    "Name": "android-smart-image-view",
+    "HtmlUrl": "https://github.com/loopj/android-smart-image-view",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 50,
+    "StargazersCount": 1299,
+    "ForksCount": 543
+  },
+  {
+    "Owner": null,
+    "Name": "ActionBarSherlock",
+    "HtmlUrl": "https://github.com/JakeWharton/ActionBarSherlock",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 90,
+    "StargazersCount": 7301,
+    "ForksCount": 3899
+  },
+  {
+    "Owner": null,
+    "Name": "lines-project",
+    "HtmlUrl": "https://github.com/heyese/lines-project",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "scala-android-crud",
+    "HtmlUrl": "https://github.com/epabst/scala-android-crud",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 19,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "sshj",
+    "HtmlUrl": "https://github.com/rtyley/sshj",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "gh4a",
+    "HtmlUrl": "https://github.com/slapperwan/gh4a",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 126,
+    "StargazersCount": 922,
+    "ForksCount": 164
+  },
+  {
+    "Owner": null,
+    "Name": "framework",
+    "HtmlUrl": "https://github.com/lift/framework",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 141,
+    "StargazersCount": 1171,
+    "ForksCount": 267
+  },
+  {
+    "Owner": null,
+    "Name": "android-pulltorefresh",
+    "HtmlUrl": "https://github.com/johannilsson/android-pulltorefresh",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 42,
+    "StargazersCount": 2539,
+    "ForksCount": 1128
+  },
+  {
+    "Owner": null,
+    "Name": "syntaxhighlighter",
+    "HtmlUrl": "https://github.com/syntaxhighlighter/syntaxhighlighter",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 219,
+    "StargazersCount": 4803,
+    "ForksCount": 1338
+  },
+  {
+    "Owner": null,
+    "Name": "android-emulator-plugin",
+    "HtmlUrl": "https://github.com/jenkinsci/android-emulator-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 6,
+    "StargazersCount": 170,
+    "ForksCount": 134
+  },
+  {
+    "Owner": null,
+    "Name": "android-actionbar",
+    "HtmlUrl": "https://github.com/johannilsson/android-actionbar",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 27,
+    "StargazersCount": 1361,
+    "ForksCount": 602
+  },
+  {
+    "Owner": null,
+    "Name": "calculon",
+    "HtmlUrl": "https://github.com/rtyley/calculon",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "madgag-ssh",
+    "HtmlUrl": "https://github.com/rtyley/madgag-ssh",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "jsch",
+    "HtmlUrl": "https://github.com/rtyley/jsch",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 22,
+    "ForksCount": 11
+  },
+  {
+    "Owner": null,
+    "Name": "connectbot",
+    "HtmlUrl": "https://github.com/rtyley/connectbot",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 3,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "ToodleBye",
+    "HtmlUrl": "https://github.com/rtyley/ToodleBye",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 3,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "scribejava",
+    "HtmlUrl": "https://github.com/scribejava/scribejava",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 7,
+    "StargazersCount": 4517,
+    "ForksCount": 1554
+  },
+  {
+    "Owner": null,
+    "Name": "jgit",
+    "HtmlUrl": "https://github.com/rtyley/jgit",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "agit",
+    "HtmlUrl": "https://github.com/rtyley/agit",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 68,
+    "StargazersCount": 464,
+    "ForksCount": 105
+  },
+  {
+    "Owner": null,
+    "Name": "robolectric",
+    "HtmlUrl": "https://github.com/robolectric/robolectric",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 728,
+    "StargazersCount": 4129,
+    "ForksCount": 1124
+  },
+  {
+    "Owner": null,
+    "Name": "test-project",
+    "HtmlUrl": "https://github.com/timpeto/test-project",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "scala-protobuf",
+    "HtmlUrl": "https://github.com/jeffplaisance/scala-protobuf",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 44,
+    "ForksCount": 10
+  },
+  {
+    "Owner": null,
+    "Name": "Dave-the-Lion-Tamer",
+    "HtmlUrl": "https://github.com/rtyley/Dave-the-Lion-Tamer",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "github-java-sdk",
+    "HtmlUrl": "https://github.com/nabeelmukhtar/github-java-sdk",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 7,
+    "StargazersCount": 60,
+    "ForksCount": 22
+  },
+  {
+    "Owner": null,
+    "Name": "async",
+    "HtmlUrl": "https://github.com/caolan/async",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 7,
+    "StargazersCount": 24546,
+    "ForksCount": 2240
+  },
+  {
+    "Owner": null,
+    "Name": "simple-http-dispatch",
+    "HtmlUrl": "https://github.com/tackley/simple-http-dispatch",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "facebook-android-sdk",
+    "HtmlUrl": "https://github.com/facebook/facebook-android-sdk",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 4591,
+    "ForksCount": 2764
+  },
+  {
+    "Owner": null,
+    "Name": "gu-content-api-client",
+    "HtmlUrl": "https://github.com/rtyley/gu-content-api-client",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "GenericMavenizedGAEProject",
+    "HtmlUrl": "https://github.com/kenlim/GenericMavenizedGAEProject",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "defer-for-java-google-app-engine",
+    "HtmlUrl": "https://github.com/rtyley/defer-for-java-google-app-engine",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 3,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "scalaj-time",
+    "HtmlUrl": "https://github.com/scalaj/scalaj-time",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 46,
+    "ForksCount": 6
+  },
+  {
+    "Owner": null,
+    "Name": "athena",
+    "HtmlUrl": "https://github.com/dwatling/athena",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 23,
+    "ForksCount": 4
+  },
+  {
+    "Owner": null,
+    "Name": "jgit",
+    "HtmlUrl": "https://github.com/spearce/jgit",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 34,
+    "ForksCount": 13
+  },
+  {
+    "Owner": null,
+    "Name": "JNA-USB",
+    "HtmlUrl": "https://github.com/rtyley/JNA-USB",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 6,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "sshj",
+    "HtmlUrl": "https://github.com/hierynomus/sshj",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 90,
+    "StargazersCount": 1244,
+    "ForksCount": 302
+  },
+  {
+    "Owner": null,
+    "Name": "ghapi",
+    "HtmlUrl": "https://github.com/EddieRingle/ghapi",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 28,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "hubroid",
+    "HtmlUrl": "https://github.com/EddieRingle/hubroid",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 312,
+    "ForksCount": 45
+  },
+  {
+    "Owner": null,
+    "Name": "great-run-results-scraper",
+    "HtmlUrl": "https://github.com/rtyley/great-run-results-scraper",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "calculon",
+    "HtmlUrl": "https://github.com/mttkay/calculon",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 152,
+    "ForksCount": 23
+  },
+  {
+    "Owner": null,
+    "Name": "sbt-idea",
+    "HtmlUrl": "https://github.com/mpeltonen/sbt-idea",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 97,
+    "StargazersCount": 1101,
+    "ForksCount": 157
+  },
+  {
+    "Owner": null,
+    "Name": "MarkdownPapers",
+    "HtmlUrl": "https://github.com/lruiz/MarkdownPapers",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 154,
+    "ForksCount": 26
+  },
+  {
+    "Owner": null,
+    "Name": "maven-android-sdk-deployer",
+    "HtmlUrl": "https://github.com/simpligility/maven-android-sdk-deployer",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 11,
+    "StargazersCount": 1374,
+    "ForksCount": 469
+  },
+  {
+    "Owner": null,
+    "Name": "android-plugin",
+    "HtmlUrl": "https://github.com/jberkel/android-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 53,
+    "StargazersCount": 491,
+    "ForksCount": 94
+  },
+  {
+    "Owner": null,
+    "Name": "madgag-util",
+    "HtmlUrl": "https://github.com/rtyley/madgag-util",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "awesome-buttons",
+    "HtmlUrl": "https://github.com/gr2m/awesome-buttons",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 417,
+    "ForksCount": 16
+  },
+  {
+    "Owner": null,
+    "Name": "hospital-bugs",
+    "HtmlUrl": "https://github.com/rtyley/hospital-bugs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "GuardianRobot",
+    "HtmlUrl": "https://github.com/kenlim/GuardianRobot",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 9,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "string_score",
+    "HtmlUrl": "https://github.com/joshaven/string_score",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 786,
+    "ForksCount": 61
+  },
+  {
+    "Owner": null,
+    "Name": "maven-android-plugin-samples",
+    "HtmlUrl": "https://github.com/jayway/maven-android-plugin-samples",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 198,
+    "ForksCount": 105
+  },
+  {
+    "Owner": null,
+    "Name": "android-maven-plugin",
+    "HtmlUrl": "https://github.com/simpligility/android-maven-plugin",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 83,
+    "StargazersCount": 1009,
+    "ForksCount": 401
+  },
+  {
+    "Owner": null,
+    "Name": "glug",
+    "HtmlUrl": "https://github.com/rtyley/glug",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 8,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "connectbot",
+    "HtmlUrl": "https://github.com/connectbot/connectbot",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 199,
+    "StargazersCount": 1087,
+    "ForksCount": 436
+  },
+  {
+    "Owner": null,
+    "Name": "git",
+    "HtmlUrl": "https://github.com/git/git",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 157,
+    "StargazersCount": 23858,
+    "ForksCount": 13888
+  },
+  {
+    "Owner": null,
+    "Name": "grpc",
+    "HtmlUrl": "https://github.com/grpc/grpc",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1042,
+    "StargazersCount": 16849,
+    "ForksCount": 3829
+  },
+  {
+    "Owner": null,
+    "Name": "pyxel",
+    "HtmlUrl": "https://github.com/kitao/pyxel",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 3648,
+    "ForksCount": 120
+  },
+  {
+    "Owner": null,
+    "Name": "long.js",
+    "HtmlUrl": "https://github.com/dcodeIO/long.js",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 6,
+    "StargazersCount": 408,
+    "ForksCount": 102
+  },
+  {
+    "Owner": null,
+    "Name": "Brogguts",
+    "HtmlUrl": "https://github.com/foslock/Brogguts",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "redash",
+    "HtmlUrl": "https://github.com/getredash/redash",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 387,
+    "StargazersCount": 9977,
+    "ForksCount": 1547
+  },
+  {
+    "Owner": null,
+    "Name": "ESCapey",
+    "HtmlUrl": "https://github.com/brianmichel/ESCapey",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 229,
+    "ForksCount": 9
+  },
+  {
+    "Owner": null,
+    "Name": "fancybox",
+    "HtmlUrl": "https://github.com/fancyapps/fancybox",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 55,
+    "StargazersCount": 5733,
+    "ForksCount": 1456
+  },
+  {
+    "Owner": null,
+    "Name": "inspire-tree",
+    "HtmlUrl": "https://github.com/helion3/inspire-tree",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 360,
+    "ForksCount": 48
+  },
+  {
+    "Owner": null,
+    "Name": "jstree",
+    "HtmlUrl": "https://github.com/vakata/jstree",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 4028,
+    "ForksCount": 1149
+  },
+  {
+    "Owner": null,
+    "Name": "pretty-json",
+    "HtmlUrl": "https://github.com/warfares/pretty-json",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 10,
+    "StargazersCount": 285,
+    "ForksCount": 63
+  },
+  {
+    "Owner": null,
+    "Name": "coup",
+    "HtmlUrl": "https://github.com/rishair/coup",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "lightbox2",
+    "HtmlUrl": "https://github.com/lokesh/lightbox2",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 56,
+    "StargazersCount": 4138,
+    "ForksCount": 1289
+  },
+  {
+    "Owner": null,
+    "Name": "bootstrap",
+    "HtmlUrl": "https://github.com/twbs/bootstrap",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 498,
+    "StargazersCount": 126992,
+    "ForksCount": 61791
+  },
+  {
+    "Owner": null,
+    "Name": "redis-py",
+    "HtmlUrl": "https://github.com/andymccurdy/redis-py",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 308,
+    "StargazersCount": 6542,
+    "ForksCount": 1536
+  },
+  {
+    "Owner": null,
+    "Name": "pgcli",
+    "HtmlUrl": "https://github.com/dbcli/pgcli",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 84,
+    "StargazersCount": 6991,
+    "ForksCount": 325
+  },
+  {
+    "Owner": null,
+    "Name": "rx-reason",
+    "HtmlUrl": "https://github.com/bordoley/rx-reason",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 18,
+    "StargazersCount": 27,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "bs-tfjs",
+    "HtmlUrl": "https://github.com/hashbackio/bs-tfjs",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "system-design-primer",
+    "HtmlUrl": "https://github.com/donnemartin/system-design-primer",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 50,
+    "StargazersCount": 44964,
+    "ForksCount": 5931
+  },
+  {
+    "Owner": null,
+    "Name": "toxic",
+    "HtmlUrl": "https://github.com/PavelOstyakov/toxic",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 155,
+    "ForksCount": 49
+  },
+  {
+    "Owner": null,
+    "Name": "Machine-Learning-with-Python",
+    "HtmlUrl": "https://github.com/susanli2016/Machine-Learning-with-Python",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 6,
+    "StargazersCount": 427,
+    "ForksCount": 487
+  },
+  {
+    "Owner": null,
+    "Name": "using_belt_set",
+    "HtmlUrl": "https://github.com/jdeisenberg/using_belt_set",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 5,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "tfjs-node",
+    "HtmlUrl": "https://github.com/tensorflow/tfjs-node",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 7,
+    "StargazersCount": 536,
+    "ForksCount": 42
+  },
+  {
+    "Owner": null,
+    "Name": "core-api",
+    "HtmlUrl": "https://github.com/fundraise-genius/core-api",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "compromise",
+    "HtmlUrl": "https://github.com/spencermountain/compromise",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 46,
+    "StargazersCount": 8029,
+    "ForksCount": 473
+  },
+  {
+    "Owner": null,
+    "Name": "reason-react",
+    "HtmlUrl": "https://github.com/reasonml/reason-react",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 74,
+    "StargazersCount": 1668,
+    "ForksCount": 177
+  },
+  {
+    "Owner": null,
+    "Name": "bs-jest",
+    "HtmlUrl": "https://github.com/glennsl/bs-jest",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 131,
+    "ForksCount": 15
+  },
+  {
+    "Owner": null,
+    "Name": "vow",
+    "HtmlUrl": "https://github.com/wokalski/vow",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 62,
+    "ForksCount": 8
+  },
+  {
+    "Owner": null,
+    "Name": "bs-dynogels",
+    "HtmlUrl": "https://github.com/hashbackio/bs-dynogels",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "bs-json",
+    "HtmlUrl": "https://github.com/glennsl/bs-json",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 124,
+    "ForksCount": 27
+  },
+  {
+    "Owner": null,
+    "Name": "reason",
+    "HtmlUrl": "https://github.com/facebook/reason",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 373,
+    "StargazersCount": 6255,
+    "ForksCount": 336
+  },
+  {
+    "Owner": null,
+    "Name": "tfjs-core",
+    "HtmlUrl": "https://github.com/tensorflow/tfjs-core",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 7905,
+    "ForksCount": 835
+  },
+  {
+    "Owner": null,
+    "Name": "google-api-python-client",
+    "HtmlUrl": "https://github.com/google/google-api-python-client",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 52,
+    "StargazersCount": 2309,
+    "ForksCount": 1044
+  },
+  {
+    "Owner": null,
+    "Name": "Seq2Seq_Tutorial",
+    "HtmlUrl": "https://github.com/hamelsmu/Seq2Seq_Tutorial",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 66,
+    "ForksCount": 18
+  },
+  {
+    "Owner": null,
+    "Name": "picamera",
+    "HtmlUrl": "https://github.com/waveform80/picamera",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 155,
+    "StargazersCount": 906,
+    "ForksCount": 222
+  },
+  {
+    "Owner": null,
+    "Name": "MonkeyType",
+    "HtmlUrl": "https://github.com/Instagram/MonkeyType",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 22,
+    "StargazersCount": 1764,
+    "ForksCount": 80
+  },
+  {
+    "Owner": null,
+    "Name": "dynogels",
+    "HtmlUrl": "https://github.com/clarkie/dynogels",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 29,
+    "StargazersCount": 375,
+    "ForksCount": 78
+  },
+  {
+    "Owner": null,
+    "Name": "mypy",
+    "HtmlUrl": "https://github.com/python/mypy",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 873,
+    "StargazersCount": 4423,
+    "ForksCount": 608
+  },
+  {
+    "Owner": null,
+    "Name": "goTool",
+    "HtmlUrl": "https://github.com/Rufio0425/goTool",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 1
+  },
+  {
+    "Owner": null,
+    "Name": "best-practices",
+    "HtmlUrl": "https://github.com/hashicorp/best-practices",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 18,
+    "StargazersCount": 1208,
+    "ForksCount": 383
+  },
+  {
+    "Owner": null,
+    "Name": "terraform",
+    "HtmlUrl": "https://github.com/hashicorp/terraform",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1507,
+    "StargazersCount": 13267,
+    "ForksCount": 4071
+  },
+  {
+    "Owner": null,
+    "Name": "serverless-plugin-scripts",
+    "HtmlUrl": "https://github.com/mvila/serverless-plugin-scripts",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 46,
+    "ForksCount": 5
+  },
+  {
+    "Owner": null,
+    "Name": "serverless-python-requirements",
+    "HtmlUrl": "https://github.com/UnitedIncome/serverless-python-requirements",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 50,
+    "StargazersCount": 296,
+    "ForksCount": 71
+  },
+  {
+    "Owner": null,
+    "Name": "boto3",
+    "HtmlUrl": "https://github.com/boto/boto3",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 289,
+    "StargazersCount": 3650,
+    "ForksCount": 756
+  },
+  {
+    "Owner": null,
+    "Name": "magenta",
+    "HtmlUrl": "https://github.com/tensorflow/magenta",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 145,
+    "StargazersCount": 10796,
+    "ForksCount": 2014
+  },
+  {
+    "Owner": null,
+    "Name": "tensorboard",
+    "HtmlUrl": "https://github.com/tensorflow/tensorboard",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 251,
+    "StargazersCount": 2133,
+    "ForksCount": 505
+  },
+  {
+    "Owner": null,
+    "Name": "tensorflow",
+    "HtmlUrl": "https://github.com/tensorflow/tensorflow",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1865,
+    "StargazersCount": 108466,
+    "ForksCount": 67015
+  },
+  {
+    "Owner": null,
+    "Name": "data",
+    "HtmlUrl": "https://github.com/GoogleTrends/data",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 3550,
+    "ForksCount": 353
+  },
+  {
+    "Owner": null,
+    "Name": "gluon-api",
+    "HtmlUrl": "https://github.com/gluon-api/gluon-api",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 2228,
+    "ForksCount": 224
+  },
+  {
+    "Owner": null,
+    "Name": "generating-reviews-discovering-sentiment",
+    "HtmlUrl": "https://github.com/openai/generating-reviews-discovering-sentiment",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 27,
+    "StargazersCount": 1092,
+    "ForksCount": 265
+  },
+  {
+    "Owner": null,
+    "Name": "styled-system",
+    "HtmlUrl": "https://github.com/jxnblk/styled-system",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 39,
+    "StargazersCount": 2321,
+    "ForksCount": 166
+  },
+  {
+    "Owner": null,
+    "Name": "rebass",
+    "HtmlUrl": "https://github.com/jxnblk/rebass",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 23,
+    "StargazersCount": 4243,
+    "ForksCount": 249
+  },
+  {
+    "Owner": null,
+    "Name": "ide-flowtype",
+    "HtmlUrl": "https://github.com/flowtype/ide-flowtype",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 39,
+    "StargazersCount": 179,
+    "ForksCount": 13
+  },
+  {
+    "Owner": null,
+    "Name": "onnx",
+    "HtmlUrl": "https://github.com/onnx/onnx",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 210,
+    "StargazersCount": 4116,
+    "ForksCount": 566
+  },
+  {
+    "Owner": null,
+    "Name": "victory",
+    "HtmlUrl": "https://github.com/FormidableLabs/victory",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 116,
+    "StargazersCount": 6314,
+    "ForksCount": 226
+  },
+  {
+    "Owner": null,
+    "Name": "flow-typed",
+    "HtmlUrl": "https://github.com/flow-typed/flow-typed",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 319,
+    "StargazersCount": 2837,
+    "ForksCount": 1081
+  },
+  {
+    "Owner": null,
+    "Name": "desktop",
+    "HtmlUrl": "https://github.com/desktop/desktop",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 432,
+    "StargazersCount": 5821,
+    "ForksCount": 2394
+  },
+  {
+    "Owner": null,
+    "Name": "signal-desktop",
+    "HtmlUrl": "https://github.com/signal-desktop/signal-desktop",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 3,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "test",
+    "HtmlUrl": "https://github.com/smith-kyle/test",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "Anki-Android",
+    "HtmlUrl": "https://github.com/ankidroid/Anki-Android",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 405,
+    "StargazersCount": 1323,
+    "ForksCount": 640
+  },
+  {
+    "Owner": null,
+    "Name": "node-gitlab",
+    "HtmlUrl": "https://github.com/node-gitlab/node-gitlab",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 58,
+    "StargazersCount": 458,
+    "ForksCount": 146
+  },
+  {
+    "Owner": null,
+    "Name": "node-slumber",
+    "HtmlUrl": "https://github.com/moul/node-slumber",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 6,
+    "ForksCount": 11
+  },
+  {
+    "Owner": null,
+    "Name": "webtorrent",
+    "HtmlUrl": "https://github.com/webtorrent/webtorrent",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 79,
+    "StargazersCount": 17606,
+    "ForksCount": 1683
+  },
+  {
+    "Owner": null,
+    "Name": "kap",
+    "HtmlUrl": "https://github.com/wulkano/kap",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 76,
+    "StargazersCount": 9389,
+    "ForksCount": 427
+  },
+  {
+    "Owner": null,
+    "Name": "tsp_art_tools",
+    "HtmlUrl": "https://github.com/jromero/tsp_art_tools",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 2,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "openpilot",
+    "HtmlUrl": "https://github.com/commaai/openpilot",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 85,
+    "StargazersCount": 8201,
+    "ForksCount": 1983
+  },
+  {
+    "Owner": null,
+    "Name": "CodeMirror",
+    "HtmlUrl": "https://github.com/codemirror/CodeMirror",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 297,
+    "StargazersCount": 15461,
+    "ForksCount": 3573
+  },
+  {
+    "Owner": null,
+    "Name": "lossless-cut",
+    "HtmlUrl": "https://github.com/mifi/lossless-cut",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 21,
+    "StargazersCount": 1603,
+    "ForksCount": 98
+  },
+  {
+    "Owner": null,
+    "Name": "rickscroll",
+    "HtmlUrl": "https://github.com/implausible/rickscroll",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 57,
+    "ForksCount": 3
+  },
+  {
+    "Owner": null,
+    "Name": "barg",
+    "HtmlUrl": "https://github.com/jdgarcia/barg",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 2,
+    "StargazersCount": 4,
+    "ForksCount": 2
+  },
+  {
+    "Owner": null,
+    "Name": "noms",
+    "HtmlUrl": "https://github.com/attic-labs/noms",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 272,
+    "StargazersCount": 6603,
+    "ForksCount": 227
+  },
+  {
+    "Owner": null,
+    "Name": "software-daily",
+    "HtmlUrl": "https://github.com/software-daily/software-daily",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 6,
+    "StargazersCount": 90,
+    "ForksCount": 11
+  },
+  {
+    "Owner": null,
+    "Name": "spectron",
+    "HtmlUrl": "https://github.com/electron/spectron",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 122,
+    "StargazersCount": 1034,
+    "ForksCount": 150
+  },
+  {
+    "Owner": null,
+    "Name": "react-codemirror",
+    "HtmlUrl": "https://github.com/JedWatson/react-codemirror",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 59,
+    "StargazersCount": 1081,
+    "ForksCount": 234
+  },
+  {
+    "Owner": null,
+    "Name": "draft-js",
+    "HtmlUrl": "https://github.com/facebook/draft-js",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 598,
+    "StargazersCount": 13714,
+    "ForksCount": 1464
+  },
+  {
+    "Owner": null,
+    "Name": "node-inspector",
+    "HtmlUrl": "https://github.com/node-inspector/node-inspector",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 226,
+    "StargazersCount": 12233,
+    "ForksCount": 761
+  },
+  {
+    "Owner": null,
+    "Name": "mammoth.js",
+    "HtmlUrl": "https://github.com/mwilliamson/mammoth.js",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 30,
+    "StargazersCount": 608,
+    "ForksCount": 120
+  },
+  {
+    "Owner": null,
+    "Name": "react-native-auto-updater",
+    "HtmlUrl": "https://github.com/redbooth/react-native-auto-updater",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 21,
+    "StargazersCount": 1362,
+    "ForksCount": 133
+  },
+  {
+    "Owner": null,
+    "Name": "GitUp",
+    "HtmlUrl": "https://github.com/git-up/GitUp",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 178,
+    "StargazersCount": 7898,
+    "ForksCount": 482
+  },
+  {
+    "Owner": null,
+    "Name": "react-select",
+    "HtmlUrl": "https://github.com/JedWatson/react-select",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 982,
+    "StargazersCount": 13435,
+    "ForksCount": 2831
+  },
+  {
+    "Owner": null,
+    "Name": "smashchat-bot",
+    "HtmlUrl": "https://github.com/Mr-Wallet/smashchat-bot",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1,
+    "StargazersCount": 1,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "mongotron",
+    "HtmlUrl": "https://github.com/officert/mongotron",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 52,
+    "StargazersCount": 2453,
+    "ForksCount": 201
+  },
+  {
+    "Owner": null,
+    "Name": "git2go",
+    "HtmlUrl": "https://github.com/libgit2/git2go",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 60,
+    "StargazersCount": 1190,
+    "ForksCount": 203
+  },
+  {
+    "Owner": null,
+    "Name": "nodegit",
+    "HtmlUrl": "https://github.com/nodegit/nodegit",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 273,
+    "StargazersCount": 3599,
+    "ForksCount": 510
+  },
+  {
+    "Owner": null,
+    "Name": "lodash",
+    "HtmlUrl": "https://github.com/lodash/lodash",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 4,
+    "StargazersCount": 34277,
+    "ForksCount": 3563
+  },
+  {
+    "Owner": null,
+    "Name": "atom",
+    "HtmlUrl": "https://github.com/atom/atom",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 810,
+    "StargazersCount": 46183,
+    "ForksCount": 9833
+  },
+  {
+    "Owner": null,
+    "Name": "git-scm.com",
+    "HtmlUrl": "https://github.com/git/git-scm.com",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 27,
+    "StargazersCount": 1630,
+    "ForksCount": 806
+  },
+  {
+    "Owner": null,
+    "Name": "nsfw",
+    "HtmlUrl": "https://github.com/Axosoft/nsfw",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 30,
+    "StargazersCount": 247,
+    "ForksCount": 30
+  },
+  {
+    "Owner": null,
+    "Name": "electron",
+    "HtmlUrl": "https://github.com/electron/electron",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 1306,
+    "StargazersCount": 63966,
+    "ForksCount": 8329
+  },
+  {
+    "Owner": null,
+    "Name": "tron",
+    "HtmlUrl": "https://github.com/bmrf/tron",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 1585,
+    "ForksCount": 147
+  },
+  {
+    "Owner": null,
+    "Name": "c",
+    "HtmlUrl": "https://github.com/jtribble/c",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 2,
+    "ForksCount": 0
+  },
+  {
+    "Owner": null,
+    "Name": "fuzzy",
+    "HtmlUrl": "https://github.com/mattyork/fuzzy",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 25,
+    "StargazersCount": 565,
+    "ForksCount": 70
+  },
+  {
+    "Owner": null,
+    "Name": "react-testutils-additions",
+    "HtmlUrl": "https://github.com/rvdkooy/react-testutils-additions",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 0,
+    "StargazersCount": 20,
+    "ForksCount": 8
+  },
+  {
+    "Owner": null,
+    "Name": "Photoshop-Export-Layers-to-Files-Fast",
+    "HtmlUrl": "https://github.com/jwa107/Photoshop-Export-Layers-to-Files-Fast",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 47,
+    "StargazersCount": 671,
+    "ForksCount": 152
+  },
+  {
+    "Owner": null,
+    "Name": "vivus",
+    "HtmlUrl": "https://github.com/maxwellito/vivus",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 6,
+    "StargazersCount": 10684,
+    "ForksCount": 910
+  }
+]

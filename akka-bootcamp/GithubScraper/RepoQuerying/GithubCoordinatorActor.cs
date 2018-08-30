@@ -24,7 +24,7 @@ namespace GithubScraper.RepoQuerying
         private ICancelable _publishTimer;
         private GithubProgressStats _githubProgressStats;
 
-        private bool _receivedInitialUsers = false;
+        private bool _receivedInitialUsers;
         
         public static Props CreateProps()
         {

@@ -43,7 +43,7 @@ namespace GithubScraper.Output
                 }
                 else
                 {
-                    _statusUpdate(Name, $"No expected users");
+                    _statusUpdate(Name, "No expected users");
                 }
                 
             });
