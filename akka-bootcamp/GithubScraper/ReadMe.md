@@ -39,7 +39,6 @@ sequenceDiagram
   participant user
   participant service
   participant authentication
-  participant mainform
   participant validator
   participant commander
   participant github client
@@ -55,18 +54,15 @@ sequenceDiagram
   authentication ->> service: Authentication Successful
   service ->> service: Become Authenticated
   user ->> service: github repo to visit
-  service ->> mainform: create
-  mainform ->> mainform: Become Ready
   service ->> validator: create
   service ->> commander: create
-  service ->> mainform: processRepo(input)
-  mainform ->> validator: validate repo
-  mainform->>mainform: Become busy
+  service ->> validator: validate repo
+  service->>service: Become busy
   validator->>github client: validate repo
   github client->>validator: boom
   validator->>validator: invalid repo
-  validator ->> mainform: invalid repo
-  mainform ->> mainform: Become Ready
+  validator ->> service: invalid repo
+  service ->> service: Become Authenticated
 
 ```
 
@@ -76,7 +72,6 @@ sequenceDiagram
   participant user
   participant service
   participant authentication
-  participant mainform
   participant validator
   participant commander
   participant coordinator
@@ -88,15 +83,11 @@ sequenceDiagram
 
   service ->> service: Become Authenticated
   user ->> service: github repo to visit
-  service ->> mainform: create
-  mainform ->> mainform: Become Ready
-  service ->> validator: create
   service ->> commander: create
   commander->> coordinator: create
   coordinator ->> coordinator: Become Waiting
-  service ->> mainform: processRepo(input)
-  mainform ->> validator: validate repo
-  mainform->>mainform:Become busy
+  service ->> validator: validate repo
+  service->>service:Become busy
   validator ->> github client: Get repo
   github client ->> validator: Valid repo
   validator->>validator: Repository
@@ -104,8 +95,8 @@ sequenceDiagram
   commander ->> coordinator: CanAcceptJob
   coordinator->>commander: AbleToAcceptJob
   commander->>validator: AbleToAcceptJob
-  validator->>mainform: AbleToacceptJob
-  mainform->>mainform: Become Ready
+  validator->>service: AbleToacceptJob
+  service->>service: Become Authenticated
   commander->>coordinator: Begin Job
   coordinator->>coordinator: Become Working
   coordinator->>worker: Query Starers
@@ -113,16 +104,19 @@ sequenceDiagram
   github client ->> worker: users
   worker->>coordinator: Starers of a repo (users)
   coordinator->>worker: FOR EACH USER: Query starrer (user)
-  worker->github client: Get all repos
-  github client->worker: repos
+  worker->>github client: Get all repos
+  github client->>worker: repos
 
-
-
-  commander->>mainform: launch results window
-  mainform->> coordinator: SubscribeToProgressUpdates
+  commander->>service: Start output Actor
+  service->> coordinator: SubscribeToProgressUpdates
   coordinator->>scheduler: Send PublishUpdate to Self every time period
   scheduler->>coordinator: publish update
-  coordinator-->output: data
+  coordinator->>output: data
 
 
 ```
+
+# Afterlesson 1:
+
+![things look like this](./doc-images-from-akka-bootcamp/unit3-lesson1-final-actor-hierarchy.png)
+

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Akka.Actor;
+using Akka.Routing;
 using Octokit;
 
 namespace GithubScraper.RepoQuerying
@@ -38,7 +39,9 @@ namespace GithubScraper.RepoQuerying
 
         protected override void PreStart()
         {
-            _githubWorker = Context.ActorOf(Props.Create(() => new GithubWorkerActor(GithubClientFactory.GetClient)));
+            _githubWorker = Context.ActorOf(Props.Create(() =>
+                    new GithubWorkerActor(GithubClientFactory.GetClient))
+                .WithRouter(new RoundRobinPool(10)));
         }
 
         private void Waiting()
