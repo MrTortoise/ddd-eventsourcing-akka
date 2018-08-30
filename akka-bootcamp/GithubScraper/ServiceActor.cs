@@ -14,8 +14,8 @@ namespace GithubScraper
         private readonly FileInfo _outputFilePath;
         private IActorRef _authActor;
 
-        public const string Name = "serviceActor";
-        public const string Path = "/user/serviceActor";
+        public const string Name = "service";
+        public const string Path = "/user/service";
 
         public static Props CreateProps(Action<string, string> authStatusUpdate, FileInfo outputFilePath)
         {

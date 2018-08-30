@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Akka.Actor;
 using Akka.Routing;
 
@@ -9,7 +10,7 @@ namespace GithubScraper.RepoQuerying
     /// </summary>
     public class GithubCommanderActor : ReceiveActor, IWithUnboundedStash
     {
-        public const string Path = "/user/serviceActor/commander";
+        public const string Path = "/user/service/commander";
         public const string Name = "commander";
 
         private IActorRef _coordinator;
@@ -46,7 +47,8 @@ namespace GithubScraper.RepoQuerying
         private void BecomesAsking()
         {
             _canAcceptJobSender = Sender;
-            _pendingJobReplies = 3;     
+            _pendingJobReplies = _coordinator.Ask<Routees>(new GetRoutees())
+                .Result.Members.Count();     
             Become(Asking);
         }
 
@@ -80,18 +82,9 @@ namespace GithubScraper.RepoQuerying
 
         protected override void PreStart()
         {
-            // create three GithubCoordinatorActor instances
-            var c1 = Context.ActorOf(GithubCoordinatorActor.CreateProps(),GithubCoordinatorActor.Name + "1");
-            var c2 = Context.ActorOf(GithubCoordinatorActor.CreateProps(),GithubCoordinatorActor.Name + "2");
-            var c3 = Context.ActorOf(GithubCoordinatorActor.CreateProps(),GithubCoordinatorActor.Name + "3");
-
-            // create a broadcast router who will ask all of them 
-            // if they're available for work
             _coordinator =
-                Context.ActorOf(Props.Empty.WithRouter(
-                    new BroadcastGroup(GithubCoordinatorActor.Path + "1",
-                        GithubCoordinatorActor.Path + "2",
-                        GithubCoordinatorActor.Path + "3")));
+                Context.ActorOf(GithubCoordinatorActor.CreateProps()
+                        .WithRouter(FromConfig.Instance), GithubCoordinatorActor.Name);
             base.PreStart();
         }
 

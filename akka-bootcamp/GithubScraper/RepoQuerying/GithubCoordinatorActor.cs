@@ -13,7 +13,7 @@ namespace GithubScraper.RepoQuerying
     /// </summary>
     public class GithubCoordinatorActor : ReceiveActor    , ILogReceive
     {
-        public const string Path = "/user/serviceActor/commander/coordinator";
+        public const string Path = "/user/service/commander/coordinator";
         public const string Name = "coordinator";
   
 

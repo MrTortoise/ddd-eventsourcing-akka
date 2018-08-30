@@ -12,6 +12,11 @@
        event-stream = on
        unhandled = on
      }    
-  
+     deployment {
+       /service/commander/coordinator{
+         router = broadcast-pool
+         nr-of-instances = 3
+       }     
+     }                
    }
  }
