@@ -2,11 +2,8 @@
 
 namespace NTier_CQS.DomainConnascence.Operations
 {
-    public class GetOrderAdapter
+    public interface IGetOrderAdapter
     {
-        public Order GetOrder(int orderId)
-        {
-            throw new NotImplementedException();
-        }
+        Order GetOrder(int orderId);
     }
 }

@@ -4,17 +4,19 @@
     {
         private readonly ICustomerAdapter _customerAdapter;
         private readonly IBasketAdapter _basketAdapter;
+        private readonly ICreateOrderNotifier _notifier;
 
-        public CreateOrderService(ICustomerAdapter customerAdapter, IBasketAdapter basketAdapter)
+        public CreateOrderService(ICustomerAdapter customerAdapter, IBasketAdapter basketAdapter, ICreateOrderNotifier notifier)
         {
             _customerAdapter = customerAdapter;
             _basketAdapter = basketAdapter;
+            _notifier = notifier;
         }
 
-        public void Receive(CreateOrderCommand command)
+        public void Receive(CreateOrderCommand c)
         {
-            var customer = _customerAdapter.GetCustomer(command.CustomerId);
-            customer.CreateOrder(command.BasketId, command.Cost, _basketAdapter);
+            var customer = _customerAdapter.GetCustomer(c.CustomerId);
+            customer.CreateOrder(c.BasketId, c.Cost, _basketAdapter, _notifier);
         }
     }
 }

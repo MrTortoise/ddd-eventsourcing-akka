@@ -1,13 +1,13 @@
 ﻿using System;
 
-namespace NTier_CQS.DomainConnascence.CustomerExperience
+namespace NTier_CQS.DomainConnascence.CustomerExperience.Write
 {
-    public class CustomerOrderCreateService
+    public class CreateOrderService
     {
         private readonly CustomerAdapter _customerAdapter;
         private readonly BasketAdapter _basketAdapter;
 
-        public CustomerOrderCreateService(CustomerAdapter customerAdapter, BasketAdapter basketAdapter)
+        public CreateOrderService(CustomerAdapter customerAdapter, BasketAdapter basketAdapter)
         {
             _customerAdapter = customerAdapter;
             _basketAdapter = basketAdapter;
@@ -21,14 +21,17 @@ namespace NTier_CQS.DomainConnascence.CustomerExperience
     }
 }
 
-
-namespace NTier_CQS.DomainConnascence.Operations
+// The point of seperating out the namespaces is that these are very different areas
+// they will probably have different values to the business in terms of build:buy:commodity
+// or in terms of competative advantage vs amount of work. EG You can buy warehouse operations.
+// You can also buy ecommerce systems ...
+namespace NTier_CQS.DomainConnascence.Operations.Write
 {
-    public class OrderWarehouseOperationsCheckpointService
+    public class OrderPickedService
     {
-        private readonly GetOrderAdapter _getOrderAdapter;
+        private readonly IGetOrderAdapter _getOrderAdapter;
 
-        public OrderWarehouseOperationsCheckpointService(GetOrderAdapter getOrderAdapter)
+        public OrderPickedService(IGetOrderAdapter getOrderAdapter)
         {
             _getOrderAdapter = getOrderAdapter;
         }
@@ -38,6 +41,16 @@ namespace NTier_CQS.DomainConnascence.Operations
         {
             var order = _getOrderAdapter.GetOrder(orderId);
             order.OrderPicked(warehouseEmployeeId, updateTime, successfullyPicked, failureReason);
+        }
+    }
+
+    public class OrderShippedService
+    {
+        private readonly IGetOrderAdapter _getOrderAdapter;
+
+        public OrderShippedService(IGetOrderAdapter getOrderAdapter)
+        {
+            _getOrderAdapter = getOrderAdapter;
         }
 
         public void OrderShipped(int orderId, int warehouseEmployeeId, DateTime updateTime, bool sucessfullyShipped,

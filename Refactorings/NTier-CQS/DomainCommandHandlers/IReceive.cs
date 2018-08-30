@@ -2,7 +2,7 @@
 {
     public interface IReceive<in T>
     {
-        void Receive(T command);
+        void Receive(T c);
     }
 
 }

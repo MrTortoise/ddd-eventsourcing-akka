@@ -6,6 +6,10 @@ using System.Linq;
 
 namespace NTier_CQS.Anemic
 {
+    public class ShippedOrderPackages
+    {
+    }
+
     public class BasketRepository
     {
         public Basket GetBasket(int basket)

@@ -9,7 +9,7 @@ namespace NTier_CQS.DomainConnascence.Operations
             throw new NotImplementedException();
         }
 
-        public void OrderShipped(int warehouseEmployeeId, DateTime updateTime, string shippingNumber, string failureReason, bool sucessfullyShipped)
+        public void OrderShipped(int warehouseEmployeeId, DateTime updateTime, string failureReason, string shippingNumber, bool sucessfullyShipped)
         {
             throw new NotImplementedException();
         }

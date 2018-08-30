@@ -7,17 +7,19 @@ namespace NTier_CQS.Domain.CustomerExperience
     {
         private readonly CustomerAdapter _customerAdapter;
         private readonly BasketAdapter _basketAdapter;
+        private readonly IOrderCreatedNotifier _notifier;
 
-        public CustomerOrderCreateService(CustomerAdapter customerAdapter, BasketAdapter basketAdapter)
+        public CustomerOrderCreateService(CustomerAdapter customerAdapter, BasketAdapter basketAdapter, IOrderCreatedNotifier notifier)
         {
             _customerAdapter = customerAdapter;
             _basketAdapter = basketAdapter;
+            _notifier = notifier;
         }
 
         public CreateOrderResult CreateOrder(CreateOrderCommand createOrderCommand)
         {
             var customer = _customerAdapter.GetCustomer(createOrderCommand.CustomerId);
-            return customer.CreateOrder(createOrderCommand.BasketId, createOrderCommand.Cost, _basketAdapter);
+            return customer.CreateOrder(createOrderCommand.BasketId, createOrderCommand.Cost, _basketAdapter, _notifier);
         }
     }
 }
@@ -25,29 +27,43 @@ namespace NTier_CQS.Domain.CustomerExperience
 
 namespace NTier_CQS.Domain.Operations
 {
-    public class OrderWarehouseOperationsCheckpointService
+    public class OrderPickedService
     {
-        private readonly GetOrderAdapter _getOrderAdapter;
+        private readonly IGetOrderAdapter _getOrderAdapter;
+        private readonly INotifyOrderPicked _pickNotifier;
 
-        public OrderWarehouseOperationsCheckpointService(GetOrderAdapter getOrderAdapter)
+        public OrderPickedService(IGetOrderAdapter getOrderAdapter, INotifyOrderPicked pickNotifier)
         {
             _getOrderAdapter = getOrderAdapter;
+            _pickNotifier = pickNotifier;
         }
 
-        public OrderPickedResult OrderPicked(PickOrderCommand pickOrderCommand)
+        public OrderPickedResult OrderPicked(PickOrderCommand c)
         {
-            var order = _getOrderAdapter.GetOrder(pickOrderCommand.OrderId);
+            var order = _getOrderAdapter.GetOrder(c.OrderId);
             
             var canOrderBePicked = order.CanOrderBePicked();
             if (!canOrderBePicked.Result) return canOrderBePicked;
             
-            return order.Pick(pickOrderCommand.WarehouseEmployeeId, pickOrderCommand.UpdateTime, pickOrderCommand.SuccessfullyPicked, pickOrderCommand.FailureReason);
+            return order.Pick(c.WarehouseEmployeeId, c.UpdateTime, c.SuccessfullyPicked, c.FailureReason, _pickNotifier);
+        }
+    }
+
+    public class OrderShippedService
+    {
+        private readonly IGetOrderAdapter _getOrderAdapter;
+        private readonly INotifyOrderShipped _shippedNotifier;
+
+        public OrderShippedService(IGetOrderAdapter getOrderAdapter, INotifyOrderShipped shippedNotifier)
+        {
+            _getOrderAdapter = getOrderAdapter;
+            _shippedNotifier = shippedNotifier;
         }
 
-        public OrderShippedResult OrderShipped(ShipOrderCommand shipOrderCommand)
+        public OrderShippedResult OrderShipped(ShipOrderCommand c)
         {
-            var order = _getOrderAdapter.GetOrder(shipOrderCommand.OrderId);
-            return order.Ship(shipOrderCommand.WarehouseEmployeeId, shipOrderCommand.UpdateTime, shipOrderCommand.ShippingInfo);
+            var order = _getOrderAdapter.GetOrder(c.OrderId);
+            return order.Ship(c.WarehouseEmployeeId, c.UpdateTime, c.ShippingInfo, _shippedNotifier);
         }
     }
 }

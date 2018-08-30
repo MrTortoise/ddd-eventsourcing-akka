@@ -8,7 +8,8 @@ namespace NTier_CQS.Domain.CustomerExperience
         {
         }
 
-        public CreateOrderResult CreateOrder(Basket.Id basketId, Money cost, BasketAdapter basketAdapter)
+        public CreateOrderResult CreateOrder(Basket.Id basketId, Money cost, BasketAdapter basketAdapter,
+            IOrderCreatedNotifier notifier)
         {
             throw new NotImplementedException();
         }

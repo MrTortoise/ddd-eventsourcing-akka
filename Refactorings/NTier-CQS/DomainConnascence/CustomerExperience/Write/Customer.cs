@@ -1,4 +1,4 @@
-﻿namespace NTier_CQS.DomainConnascence.CustomerExperience
+﻿namespace NTier_CQS.DomainConnascence.CustomerExperience.Write
 {
     public class Customer
     {

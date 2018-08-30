@@ -1,30 +1,32 @@
-﻿namespace NTier_CQS.Domain.CustomerExperience
+﻿using System.Collections.Generic;
+
+namespace NTier_CQS.Domain.CustomerExperience
 {
     public class OrderHistoryReadModel
     {
-        private CustomerEntityModelContext _context;
+        private IOrderHistoryRepository _repo;
 
-        public OrderHistory GetCustomerOrderHistory(int customerId)
+        public OrderHistoryReadModel(IOrderHistoryRepository repo)
         {
-            _context.GetAllOrderHistory(customerId);
+            _repo = repo;
+        }
+
+        public List<Order> GetCustomerOrderHistory(int customerId)
+        {
+            return _repo.GetAllOrderHistory(customerId);
         }
     }
 
-    public class OrderHistory
+
+    /// <summary>
+    /// Could be anything (sql, nosql, edge, geopatial)
+    /// </summary>
+    public interface IOrderHistoryRepository
     {
+        List<Order> GetAllOrderHistory(int customerId);
     }
 
-    public class CustomerReadModels
+    public class Order
     {
-
-    }
-
-
-    public class CustomerEntityModelContext
-    {
-        public void GetAllOrderHistory(int customerId)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

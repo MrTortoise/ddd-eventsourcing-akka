@@ -4,7 +4,8 @@ namespace NTier_CQS.Domain.Operations
 {
     public class Order
     {
-        public OrderPickedResult Pick(WarehouseEmployee.Id warehouseEmployeeId, DateTime updateTime, bool successfullyPicked, string failureReason)
+        public OrderPickedResult Pick(WarehouseEmployee.Id warehouseEmployeeId, DateTime updateTime,
+            bool successfullyPicked, string failureReason, INotifyOrderPicked pickNotifier)
         {
             throw new NotImplementedException();
         }
@@ -13,7 +14,8 @@ namespace NTier_CQS.Domain.Operations
         {
         }
 
-        public OrderShippedResult Ship(WarehouseEmployee.Id warehouseEmployeeId, DateTime updateTime, ShippingInfo shippingInfo)
+        public OrderShippedResult Ship(WarehouseEmployee.Id warehouseEmployeeId, DateTime updateTime,
+            ShippingInfo shippingInfo, INotifyOrderShipped shippedNotifier)
         {
             throw new NotImplementedException();
         }

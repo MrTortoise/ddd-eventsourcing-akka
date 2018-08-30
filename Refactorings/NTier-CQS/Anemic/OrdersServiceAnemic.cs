@@ -19,6 +19,13 @@ namespace NTier_CQS.Anemic
             _orderRepository = orderRepo;
         }
 
+        /// <summary>
+        /// Look this function creates an order and then returns an order.
+        /// We need to query several datastores in turn and then write and requery.
+        /// This is a transactional and consistency nightmare.
+        /// Of course our 'business logic' is completley muddied with the repository pattern
+        /// that we are using to enable us to change database? or repo? what exactly?
+        /// </summary>
         public Order CreateOrder(int customerId, decimal cost, int basketId)
         {
             if (customerId < 1) throw new ArgumentOutOfRangeException(nameof(customerId), customerId, "Customer Id must be set (positive)");
@@ -33,8 +40,10 @@ namespace NTier_CQS.Anemic
 
             if (!customer.IsValid())
             {
-                
+                // because the function is there.
+                // what are we really asking? Can this customer make orders?
             }
+            
             var basket = _basketRepository.GetBasket(basketId);
             if (basket == null)
             {
@@ -44,11 +53,21 @@ namespace NTier_CQS.Anemic
             return _orderRepository.CreateOrder(customer, basket, cost);
         }
 
+        /// <summary>
+        /// We are using the same repositories for reading and writing
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
         public List<Order> GetCustomersOrderHistory(int customerId)
         {
             return _orderRepository.GetOrdersForCustomer(customerId);
         }
 
+        /// <summary>
+        /// But this architecture works really well for reads.
+        /// Well if you want to do all those joins everytime its fine.
+        /// </summary>
+        /// <returns></returns>
         public List<ShippedOrderPackages> GetTodaysShippedOrders()
         {
             return _orderRepository.GetShippedOrders(DateTime.Today);
@@ -66,9 +85,5 @@ namespace NTier_CQS.Anemic
         {
             _orderRepository.UpdateOrderStatus(orderId, reason, orderStatus);
         }
-    }
-
-    public class ShippedOrderPackages
-    {
     }
 }
