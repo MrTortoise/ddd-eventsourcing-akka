@@ -1,6 +1,10 @@
 ﻿using System;
 using System.IO;
 using Akka.Actor;
+using GithubScraper.Authentication;
+using GithubScraper.Output;
+using GithubScraper.RepoQuerying;
+using GithubScraper.Validation;
 
 namespace GithubScraper
 {

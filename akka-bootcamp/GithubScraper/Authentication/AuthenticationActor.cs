@@ -2,7 +2,7 @@
 using Akka.Actor;
 using Octokit;
 
-namespace GithubScraper
+namespace GithubScraper.Authentication
 {
     public class AuthenticationActor : ReceiveActor, ILogReceive
     {

@@ -1,8 +1,7 @@
 ﻿using System;
 using Akka.Actor;
-using Octokit;
 
-namespace GithubScraper
+namespace GithubScraper.RepoQuerying
 {
     /// <summary>
     /// Top-level actor responsible for coordinating and launching repo-processing jobs

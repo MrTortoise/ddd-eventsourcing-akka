@@ -1,4 +1,4 @@
-﻿namespace GithubScraper
+﻿namespace GithubScraper.RepoQuerying
 {
     public class RepoKey
     {

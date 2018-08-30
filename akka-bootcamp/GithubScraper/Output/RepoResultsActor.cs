@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Akka.Actor;
+using GithubScraper.RepoQuerying;
 using Newtonsoft.Json;
 
-namespace GithubScraper
+namespace GithubScraper.Output
 {
     /// <summary>
     /// Actor responsible for printing the results and progress from a <see cref="GithubCoordinatorActor"/>

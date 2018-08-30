@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using Akka.Actor;
 using Octokit;
 
-namespace GithubScraper
+namespace GithubScraper.RepoQuerying
 {
     /// <summary>
     /// Actor responsible for publishing data about the results

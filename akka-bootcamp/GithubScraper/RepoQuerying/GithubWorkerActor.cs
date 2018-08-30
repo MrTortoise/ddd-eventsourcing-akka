@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Akka.Actor;
-using Akka.Logger.Serilog;
 using Octokit;
 
-namespace GithubScraper
+namespace GithubScraper.RepoQuerying
 {
     /// <summary>
     /// Individual actor responsible for querying the Github API

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Linq;
 using Akka.Actor;
+using GithubScraper.RepoQuerying;
 using Octokit;
 
-namespace GithubScraper
+namespace GithubScraper.Validation
 {
     /// <summary>
     /// Actor has one job - ensure that a public repo exists at the specified address
