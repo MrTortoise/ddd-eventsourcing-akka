@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace NTier_CQS.Anemic
 {
+    
     /// <summary>
     /// Its almost like this approach is optomised for queries ....
     /// </summary>

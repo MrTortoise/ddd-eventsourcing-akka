@@ -57,7 +57,13 @@ namespace NTier_CQS.DomainConnascence.Operations.Write
             string shippingNumber, string failureReason)
         {
             var order = _getOrderAdapter.GetOrder(orderId);
-            order.OrderShipped(warehouseEmployeeId, updateTime, shippingNumber, failureReason, sucessfullyShipped);
+            order.OrderShipped(warehouseEmployeeId, updateTime, shippingNumber, failureReason,  sucessfullyShipped);
         }
+    }
+
+
+    public class ReadSSomething
+    {
+        
     }
 }
