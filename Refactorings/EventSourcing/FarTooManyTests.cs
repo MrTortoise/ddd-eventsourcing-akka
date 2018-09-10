@@ -23,7 +23,6 @@ namespace EventSourcing
 
         private readonly RegisterCustomerAccountService _registerCustomerAccountService;
         private readonly AddItemToCustomerBasketService _addItemToBasketService;
-        private readonly PlaceOrderService _placeOrderService;
         private readonly AddPaymentTypeService _addPaymentTypeService;
         
 
@@ -40,7 +39,7 @@ namespace EventSourcing
                     eventWriter, _dateTimeSource, _passwordHasher, _customerLoader);
             
             _addItemToBasketService = new AddItemToCustomerBasketService(eventWriter, _dateTimeSource, _customerLoader);
-            _placeOrderService = new PlaceOrderService(eventWriter, _dateTimeSource, _customerLoader);
+            new PlaceOrderService(eventWriter, _dateTimeSource, _customerLoader);
             _addPaymentTypeService =
                 new AddPaymentTypeService(eventWriter, _dateTimeSource, _customerLoader);
         }

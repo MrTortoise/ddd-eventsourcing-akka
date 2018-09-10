@@ -4,36 +4,36 @@
     "Name": "flask",
     "HtmlUrl": "https://github.com/pallets/flask",
     "SharedStarrers": 2,
-    "OpenIssuesCount": 38,
-    "StargazersCount": 38443,
-    "ForksCount": 11213
+    "OpenIssuesCount": 40,
+    "StargazersCount": 38627,
+    "ForksCount": 11260
   },
   {
     "Owner": null,
     "Name": "libgit2",
     "HtmlUrl": "https://github.com/libgit2/libgit2",
     "SharedStarrers": 2,
-    "OpenIssuesCount": 261,
-    "StargazersCount": 6606,
-    "ForksCount": 1679
+    "OpenIssuesCount": 263,
+    "StargazersCount": 6615,
+    "ForksCount": 1683
   },
   {
     "Owner": null,
     "Name": "grpc",
     "HtmlUrl": "https://github.com/grpc/grpc",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 1042,
-    "StargazersCount": 16850,
-    "ForksCount": 3829
+    "OpenIssuesCount": 1053,
+    "StargazersCount": 17009,
+    "ForksCount": 3871
   },
   {
     "Owner": null,
     "Name": "pyxel",
     "HtmlUrl": "https://github.com/kitao/pyxel",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 15,
-    "StargazersCount": 3648,
-    "ForksCount": 120
+    "OpenIssuesCount": 18,
+    "StargazersCount": 3746,
+    "ForksCount": 126
   },
   {
     "Owner": null,
@@ -41,7 +41,7 @@
     "HtmlUrl": "https://github.com/dcodeIO/long.js",
     "SharedStarrers": 1,
     "OpenIssuesCount": 6,
-    "StargazersCount": 408,
+    "StargazersCount": 415,
     "ForksCount": 102
   },
   {
@@ -58,9 +58,9 @@
     "Name": "redash",
     "HtmlUrl": "https://github.com/getredash/redash",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 387,
-    "StargazersCount": 9977,
-    "ForksCount": 1547
+    "OpenIssuesCount": 397,
+    "StargazersCount": 10034,
+    "ForksCount": 1557
   },
   {
     "Owner": null,
@@ -76,8 +76,8 @@
     "Name": "fancybox",
     "HtmlUrl": "https://github.com/fancyapps/fancybox",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 55,
-    "StargazersCount": 5733,
+    "OpenIssuesCount": 53,
+    "StargazersCount": 5754,
     "ForksCount": 1456
   },
   {
@@ -85,7 +85,7 @@
     "Name": "inspire-tree",
     "HtmlUrl": "https://github.com/helion3/inspire-tree",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 2,
+    "OpenIssuesCount": 1,
     "StargazersCount": 360,
     "ForksCount": 48
   },
@@ -94,9 +94,9 @@
     "Name": "jstree",
     "HtmlUrl": "https://github.com/vakata/jstree",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 1,
-    "StargazersCount": 4028,
-    "ForksCount": 1149
+    "OpenIssuesCount": 2,
+    "StargazersCount": 4040,
+    "ForksCount": 1154
   },
   {
     "Owner": null,
@@ -122,8 +122,8 @@
     "HtmlUrl": "https://github.com/lokesh/lightbox2",
     "SharedStarrers": 1,
     "OpenIssuesCount": 56,
-    "StargazersCount": 4138,
-    "ForksCount": 1289
+    "StargazersCount": 4147,
+    "ForksCount": 1292
   },
   {
     "Owner": null,
@@ -131,8 +131,8 @@
     "HtmlUrl": "https://github.com/twbs/bootstrap",
     "SharedStarrers": 1,
     "OpenIssuesCount": 499,
-    "StargazersCount": 126993,
-    "ForksCount": 61793
+    "StargazersCount": 127201,
+    "ForksCount": 61960
   },
   {
     "Owner": null,
@@ -140,17 +140,26 @@
     "HtmlUrl": "https://github.com/andymccurdy/redis-py",
     "SharedStarrers": 1,
     "OpenIssuesCount": 308,
-    "StargazersCount": 6542,
-    "ForksCount": 1536
+    "StargazersCount": 6584,
+    "ForksCount": 1545
   },
   {
     "Owner": null,
     "Name": "pgcli",
     "HtmlUrl": "https://github.com/dbcli/pgcli",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 84,
-    "StargazersCount": 6991,
-    "ForksCount": 325
+    "OpenIssuesCount": 85,
+    "StargazersCount": 7014,
+    "ForksCount": 326
+  },
+  {
+    "Owner": null,
+    "Name": "vimium",
+    "HtmlUrl": "https://github.com/philc/vimium",
+    "SharedStarrers": 1,
+    "OpenIssuesCount": 522,
+    "StargazersCount": 9535,
+    "ForksCount": 1164
   },
   {
     "Owner": null,
@@ -175,9 +184,9 @@
     "Name": "system-design-primer",
     "HtmlUrl": "https://github.com/donnemartin/system-design-primer",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 50,
-    "StargazersCount": 44973,
-    "ForksCount": 5933
+    "OpenIssuesCount": 52,
+    "StargazersCount": 46831,
+    "ForksCount": 6198
   },
   {
     "Owner": null,
@@ -194,8 +203,8 @@
     "HtmlUrl": "https://github.com/susanli2016/Machine-Learning-with-Python",
     "SharedStarrers": 1,
     "OpenIssuesCount": 6,
-    "StargazersCount": 427,
-    "ForksCount": 487
+    "StargazersCount": 445,
+    "ForksCount": 504
   },
   {
     "Owner": null,
@@ -211,9 +220,9 @@
     "Name": "tfjs-node",
     "HtmlUrl": "https://github.com/tensorflow/tfjs-node",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 7,
-    "StargazersCount": 536,
-    "ForksCount": 42
+    "OpenIssuesCount": 6,
+    "StargazersCount": 554,
+    "ForksCount": 43
   },
   {
     "Owner": null,
@@ -229,18 +238,18 @@
     "Name": "compromise",
     "HtmlUrl": "https://github.com/spencermountain/compromise",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 47,
-    "StargazersCount": 8029,
-    "ForksCount": 473
+    "OpenIssuesCount": 43,
+    "StargazersCount": 8076,
+    "ForksCount": 477
   },
   {
     "Owner": null,
     "Name": "reason-react",
     "HtmlUrl": "https://github.com/reasonml/reason-react",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 74,
-    "StargazersCount": 1668,
-    "ForksCount": 177
+    "OpenIssuesCount": 75,
+    "StargazersCount": 1688,
+    "ForksCount": 179
   },
   {
     "Owner": null,
@@ -248,8 +257,8 @@
     "HtmlUrl": "https://github.com/glennsl/bs-jest",
     "SharedStarrers": 1,
     "OpenIssuesCount": 0,
-    "StargazersCount": 131,
-    "ForksCount": 15
+    "StargazersCount": 132,
+    "ForksCount": 16
   },
   {
     "Owner": null,
@@ -257,7 +266,7 @@
     "HtmlUrl": "https://github.com/wokalski/vow",
     "SharedStarrers": 1,
     "OpenIssuesCount": 4,
-    "StargazersCount": 62,
+    "StargazersCount": 63,
     "ForksCount": 8
   },
   {
@@ -275,7 +284,7 @@
     "HtmlUrl": "https://github.com/glennsl/bs-json",
     "SharedStarrers": 1,
     "OpenIssuesCount": 2,
-    "StargazersCount": 124,
+    "StargazersCount": 127,
     "ForksCount": 27
   },
   {
@@ -283,9 +292,9 @@
     "Name": "reason",
     "HtmlUrl": "https://github.com/facebook/reason",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 373,
-    "StargazersCount": 6255,
-    "ForksCount": 336
+    "OpenIssuesCount": 376,
+    "StargazersCount": 6304,
+    "ForksCount": 338
   },
   {
     "Owner": null,
@@ -293,17 +302,17 @@
     "HtmlUrl": "https://github.com/tensorflow/tfjs-core",
     "SharedStarrers": 1,
     "OpenIssuesCount": 15,
-    "StargazersCount": 7907,
-    "ForksCount": 835
+    "StargazersCount": 7955,
+    "ForksCount": 840
   },
   {
     "Owner": null,
     "Name": "google-api-python-client",
     "HtmlUrl": "https://github.com/google/google-api-python-client",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 52,
-    "StargazersCount": 2309,
-    "ForksCount": 1044
+    "OpenIssuesCount": 54,
+    "StargazersCount": 2323,
+    "ForksCount": 1047
   },
   {
     "Owner": null,
@@ -311,7 +320,7 @@
     "HtmlUrl": "https://github.com/hamelsmu/Seq2Seq_Tutorial",
     "SharedStarrers": 1,
     "OpenIssuesCount": 1,
-    "StargazersCount": 66,
+    "StargazersCount": 68,
     "ForksCount": 18
   },
   {
@@ -319,36 +328,36 @@
     "Name": "picamera",
     "HtmlUrl": "https://github.com/waveform80/picamera",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 155,
-    "StargazersCount": 906,
-    "ForksCount": 222
+    "OpenIssuesCount": 158,
+    "StargazersCount": 909,
+    "ForksCount": 226
   },
   {
     "Owner": null,
     "Name": "MonkeyType",
     "HtmlUrl": "https://github.com/Instagram/MonkeyType",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 22,
-    "StargazersCount": 1764,
-    "ForksCount": 80
+    "OpenIssuesCount": 23,
+    "StargazersCount": 1779,
+    "ForksCount": 81
   },
   {
     "Owner": null,
     "Name": "dynogels",
     "HtmlUrl": "https://github.com/clarkie/dynogels",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 29,
+    "OpenIssuesCount": 30,
     "StargazersCount": 375,
-    "ForksCount": 78
+    "ForksCount": 77
   },
   {
     "Owner": null,
     "Name": "mypy",
     "HtmlUrl": "https://github.com/python/mypy",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 873,
-    "StargazersCount": 4424,
-    "ForksCount": 608
+    "OpenIssuesCount": 881,
+    "StargazersCount": 4495,
+    "ForksCount": 616
   },
   {
     "Owner": null,
@@ -365,17 +374,17 @@
     "HtmlUrl": "https://github.com/hashicorp/best-practices",
     "SharedStarrers": 1,
     "OpenIssuesCount": 18,
-    "StargazersCount": 1208,
-    "ForksCount": 383
+    "StargazersCount": 1212,
+    "ForksCount": 387
   },
   {
     "Owner": null,
     "Name": "terraform",
     "HtmlUrl": "https://github.com/hashicorp/terraform",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 1507,
-    "StargazersCount": 13268,
-    "ForksCount": 4071
+    "OpenIssuesCount": 1528,
+    "StargazersCount": 13367,
+    "ForksCount": 4084
   },
   {
     "Owner": null,
@@ -391,45 +400,45 @@
     "Name": "serverless-python-requirements",
     "HtmlUrl": "https://github.com/UnitedIncome/serverless-python-requirements",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 50,
-    "StargazersCount": 296,
-    "ForksCount": 71
+    "OpenIssuesCount": 54,
+    "StargazersCount": 320,
+    "ForksCount": 72
   },
   {
     "Owner": null,
     "Name": "boto3",
     "HtmlUrl": "https://github.com/boto/boto3",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 289,
-    "StargazersCount": 3650,
-    "ForksCount": 756
+    "OpenIssuesCount": 281,
+    "StargazersCount": 3681,
+    "ForksCount": 761
   },
   {
     "Owner": null,
     "Name": "magenta",
     "HtmlUrl": "https://github.com/tensorflow/magenta",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 145,
-    "StargazersCount": 10796,
-    "ForksCount": 2014
+    "OpenIssuesCount": 146,
+    "StargazersCount": 10863,
+    "ForksCount": 2027
   },
   {
     "Owner": null,
     "Name": "tensorboard",
     "HtmlUrl": "https://github.com/tensorflow/tensorboard",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 251,
-    "StargazersCount": 2133,
-    "ForksCount": 505
+    "OpenIssuesCount": 248,
+    "StargazersCount": 2166,
+    "ForksCount": 510
   },
   {
     "Owner": null,
     "Name": "tensorflow",
     "HtmlUrl": "https://github.com/tensorflow/tensorflow",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 1865,
-    "StargazersCount": 108469,
-    "ForksCount": 67015
+    "OpenIssuesCount": 1858,
+    "StargazersCount": 109059,
+    "ForksCount": 67313
   },
   {
     "Owner": null,
@@ -437,8 +446,8 @@
     "HtmlUrl": "https://github.com/GoogleTrends/data",
     "SharedStarrers": 1,
     "OpenIssuesCount": 15,
-    "StargazersCount": 3550,
-    "ForksCount": 353
+    "StargazersCount": 3551,
+    "ForksCount": 352
   },
   {
     "Owner": null,
@@ -446,7 +455,7 @@
     "HtmlUrl": "https://github.com/gluon-api/gluon-api",
     "SharedStarrers": 1,
     "OpenIssuesCount": 3,
-    "StargazersCount": 2228,
+    "StargazersCount": 2234,
     "ForksCount": 224
   },
   {
@@ -455,26 +464,26 @@
     "HtmlUrl": "https://github.com/openai/generating-reviews-discovering-sentiment",
     "SharedStarrers": 1,
     "OpenIssuesCount": 27,
-    "StargazersCount": 1092,
-    "ForksCount": 265
+    "StargazersCount": 1100,
+    "ForksCount": 268
   },
   {
     "Owner": null,
     "Name": "styled-system",
     "HtmlUrl": "https://github.com/jxnblk/styled-system",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 39,
-    "StargazersCount": 2322,
-    "ForksCount": 166
+    "OpenIssuesCount": 12,
+    "StargazersCount": 2355,
+    "ForksCount": 168
   },
   {
     "Owner": null,
     "Name": "rebass",
     "HtmlUrl": "https://github.com/jxnblk/rebass",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 23,
-    "StargazersCount": 4243,
-    "ForksCount": 249
+    "OpenIssuesCount": 26,
+    "StargazersCount": 4295,
+    "ForksCount": 253
   },
   {
     "Owner": null,
@@ -490,36 +499,36 @@
     "Name": "onnx",
     "HtmlUrl": "https://github.com/onnx/onnx",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 209,
-    "StargazersCount": 4116,
-    "ForksCount": 566
+    "OpenIssuesCount": 220,
+    "StargazersCount": 4179,
+    "ForksCount": 579
   },
   {
     "Owner": null,
     "Name": "victory",
     "HtmlUrl": "https://github.com/FormidableLabs/victory",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 116,
-    "StargazersCount": 6314,
-    "ForksCount": 226
+    "OpenIssuesCount": 118,
+    "StargazersCount": 6340,
+    "ForksCount": 229
   },
   {
     "Owner": null,
     "Name": "flow-typed",
     "HtmlUrl": "https://github.com/flow-typed/flow-typed",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 319,
-    "StargazersCount": 2837,
-    "ForksCount": 1081
+    "OpenIssuesCount": 318,
+    "StargazersCount": 2859,
+    "ForksCount": 1090
   },
   {
     "Owner": null,
     "Name": "desktop",
     "HtmlUrl": "https://github.com/desktop/desktop",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 433,
-    "StargazersCount": 5821,
-    "ForksCount": 2394
+    "OpenIssuesCount": 424,
+    "StargazersCount": 5865,
+    "ForksCount": 2437
   },
   {
     "Owner": null,
@@ -544,9 +553,9 @@
     "Name": "Anki-Android",
     "HtmlUrl": "https://github.com/ankidroid/Anki-Android",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 405,
-    "StargazersCount": 1323,
-    "ForksCount": 640
+    "OpenIssuesCount": 400,
+    "StargazersCount": 1340,
+    "ForksCount": 645
   },
   {
     "Owner": null,
@@ -554,8 +563,8 @@
     "HtmlUrl": "https://github.com/node-gitlab/node-gitlab",
     "SharedStarrers": 1,
     "OpenIssuesCount": 58,
-    "StargazersCount": 458,
-    "ForksCount": 146
+    "StargazersCount": 461,
+    "ForksCount": 147
   },
   {
     "Owner": null,
@@ -571,18 +580,18 @@
     "Name": "webtorrent",
     "HtmlUrl": "https://github.com/webtorrent/webtorrent",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 79,
-    "StargazersCount": 17606,
-    "ForksCount": 1683
+    "OpenIssuesCount": 80,
+    "StargazersCount": 17654,
+    "ForksCount": 1688
   },
   {
     "Owner": null,
     "Name": "kap",
     "HtmlUrl": "https://github.com/wulkano/kap",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 76,
-    "StargazersCount": 9389,
-    "ForksCount": 427
+    "OpenIssuesCount": 77,
+    "StargazersCount": 9430,
+    "ForksCount": 432
   },
   {
     "Owner": null,
@@ -598,18 +607,18 @@
     "Name": "openpilot",
     "HtmlUrl": "https://github.com/commaai/openpilot",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 85,
-    "StargazersCount": 8201,
-    "ForksCount": 1983
+    "OpenIssuesCount": 88,
+    "StargazersCount": 8260,
+    "ForksCount": 2002
   },
   {
     "Owner": null,
     "Name": "CodeMirror",
     "HtmlUrl": "https://github.com/codemirror/CodeMirror",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 297,
-    "StargazersCount": 15461,
-    "ForksCount": 3573
+    "OpenIssuesCount": 268,
+    "StargazersCount": 15536,
+    "ForksCount": 3581
   },
   {
     "Owner": null,
@@ -617,8 +626,8 @@
     "HtmlUrl": "https://github.com/mifi/lossless-cut",
     "SharedStarrers": 1,
     "OpenIssuesCount": 21,
-    "StargazersCount": 1603,
-    "ForksCount": 98
+    "StargazersCount": 1614,
+    "ForksCount": 101
   },
   {
     "Owner": null,
@@ -644,8 +653,8 @@
     "HtmlUrl": "https://github.com/attic-labs/noms",
     "SharedStarrers": 1,
     "OpenIssuesCount": 272,
-    "StargazersCount": 6603,
-    "ForksCount": 227
+    "StargazersCount": 6616,
+    "ForksCount": 228
   },
   {
     "Owner": null,
@@ -662,8 +671,8 @@
     "HtmlUrl": "https://github.com/electron/spectron",
     "SharedStarrers": 1,
     "OpenIssuesCount": 122,
-    "StargazersCount": 1034,
-    "ForksCount": 150
+    "StargazersCount": 1039,
+    "ForksCount": 151
   },
   {
     "Owner": null,
@@ -671,17 +680,17 @@
     "HtmlUrl": "https://github.com/JedWatson/react-codemirror",
     "SharedStarrers": 1,
     "OpenIssuesCount": 59,
-    "StargazersCount": 1081,
-    "ForksCount": 234
+    "StargazersCount": 1091,
+    "ForksCount": 236
   },
   {
     "Owner": null,
     "Name": "draft-js",
     "HtmlUrl": "https://github.com/facebook/draft-js",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 598,
-    "StargazersCount": 13714,
-    "ForksCount": 1464
+    "OpenIssuesCount": 597,
+    "StargazersCount": 13785,
+    "ForksCount": 1476
   },
   {
     "Owner": null,
@@ -689,8 +698,8 @@
     "HtmlUrl": "https://github.com/node-inspector/node-inspector",
     "SharedStarrers": 1,
     "OpenIssuesCount": 226,
-    "StargazersCount": 12233,
-    "ForksCount": 761
+    "StargazersCount": 12242,
+    "ForksCount": 762
   },
   {
     "Owner": null,
@@ -698,8 +707,8 @@
     "HtmlUrl": "https://github.com/mwilliamson/mammoth.js",
     "SharedStarrers": 1,
     "OpenIssuesCount": 30,
-    "StargazersCount": 608,
-    "ForksCount": 121
+    "StargazersCount": 617,
+    "ForksCount": 124
   },
   {
     "Owner": null,
@@ -707,8 +716,8 @@
     "HtmlUrl": "https://github.com/redbooth/react-native-auto-updater",
     "SharedStarrers": 1,
     "OpenIssuesCount": 21,
-    "StargazersCount": 1362,
-    "ForksCount": 133
+    "StargazersCount": 1365,
+    "ForksCount": 135
   },
   {
     "Owner": null,
@@ -716,17 +725,17 @@
     "HtmlUrl": "https://github.com/git-up/GitUp",
     "SharedStarrers": 1,
     "OpenIssuesCount": 178,
-    "StargazersCount": 7898,
-    "ForksCount": 482
+    "StargazersCount": 7918,
+    "ForksCount": 483
   },
   {
     "Owner": null,
     "Name": "react-select",
     "HtmlUrl": "https://github.com/JedWatson/react-select",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 982,
-    "StargazersCount": 13436,
-    "ForksCount": 2831
+    "OpenIssuesCount": 997,
+    "StargazersCount": 13560,
+    "ForksCount": 2859
   },
   {
     "Owner": null,
@@ -743,8 +752,8 @@
     "HtmlUrl": "https://github.com/officert/mongotron",
     "SharedStarrers": 1,
     "OpenIssuesCount": 52,
-    "StargazersCount": 2453,
-    "ForksCount": 201
+    "StargazersCount": 2457,
+    "ForksCount": 203
   },
   {
     "Owner": null,
@@ -752,35 +761,35 @@
     "HtmlUrl": "https://github.com/libgit2/git2go",
     "SharedStarrers": 1,
     "OpenIssuesCount": 60,
-    "StargazersCount": 1190,
-    "ForksCount": 203
+    "StargazersCount": 1192,
+    "ForksCount": 205
   },
   {
     "Owner": null,
     "Name": "nodegit",
     "HtmlUrl": "https://github.com/nodegit/nodegit",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 273,
-    "StargazersCount": 3599,
-    "ForksCount": 510
+    "OpenIssuesCount": 271,
+    "StargazersCount": 3621,
+    "ForksCount": 513
   },
   {
     "Owner": null,
     "Name": "lodash",
     "HtmlUrl": "https://github.com/lodash/lodash",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 4,
-    "StargazersCount": 34277,
-    "ForksCount": 3563
+    "OpenIssuesCount": 1,
+    "StargazersCount": 34428,
+    "ForksCount": 3571
   },
   {
     "Owner": null,
     "Name": "atom",
     "HtmlUrl": "https://github.com/atom/atom",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 810,
-    "StargazersCount": 46181,
-    "ForksCount": 9833
+    "OpenIssuesCount": 803,
+    "StargazersCount": 46256,
+    "ForksCount": 9871
   },
   {
     "Owner": null,
@@ -797,17 +806,17 @@
     "HtmlUrl": "https://github.com/Axosoft/nsfw",
     "SharedStarrers": 1,
     "OpenIssuesCount": 30,
-    "StargazersCount": 247,
-    "ForksCount": 30
+    "StargazersCount": 252,
+    "ForksCount": 31
   },
   {
     "Owner": null,
     "Name": "electron",
     "HtmlUrl": "https://github.com/electron/electron",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 1308,
-    "StargazersCount": 63967,
-    "ForksCount": 8329
+    "OpenIssuesCount": 1291,
+    "StargazersCount": 64283,
+    "ForksCount": 8355
   },
   {
     "Owner": null,
@@ -815,8 +824,8 @@
     "HtmlUrl": "https://github.com/bmrf/tron",
     "SharedStarrers": 1,
     "OpenIssuesCount": 0,
-    "StargazersCount": 1585,
-    "ForksCount": 147
+    "StargazersCount": 1594,
+    "ForksCount": 148
   },
   {
     "Owner": null,
@@ -833,7 +842,7 @@
     "HtmlUrl": "https://github.com/mattyork/fuzzy",
     "SharedStarrers": 1,
     "OpenIssuesCount": 25,
-    "StargazersCount": 565,
+    "StargazersCount": 568,
     "ForksCount": 70
   },
   {
@@ -852,16 +861,16 @@
     "SharedStarrers": 1,
     "OpenIssuesCount": 47,
     "StargazersCount": 671,
-    "ForksCount": 152
+    "ForksCount": 153
   },
   {
     "Owner": null,
     "Name": "vivus",
     "HtmlUrl": "https://github.com/maxwellito/vivus",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 6,
-    "StargazersCount": 10684,
-    "ForksCount": 910
+    "OpenIssuesCount": 5,
+    "StargazersCount": 10716,
+    "ForksCount": 912
   },
   {
     "Owner": null,
@@ -869,8 +878,8 @@
     "HtmlUrl": "https://github.com/klinker24/talon-for-twitter-android",
     "SharedStarrers": 1,
     "OpenIssuesCount": 47,
-    "StargazersCount": 722,
-    "ForksCount": 89
+    "StargazersCount": 725,
+    "ForksCount": 90
   },
   {
     "Owner": null,
@@ -878,17 +887,17 @@
     "HtmlUrl": "https://github.com/dxa4481/truffleHog",
     "SharedStarrers": 1,
     "OpenIssuesCount": 35,
-    "StargazersCount": 2700,
-    "ForksCount": 328
+    "StargazersCount": 2717,
+    "ForksCount": 331
   },
   {
     "Owner": null,
     "Name": "mill",
     "HtmlUrl": "https://github.com/lihaoyi/mill",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 47,
-    "StargazersCount": 971,
-    "ForksCount": 107
+    "OpenIssuesCount": 48,
+    "StargazersCount": 979,
+    "ForksCount": 111
   },
   {
     "Owner": null,
@@ -914,7 +923,7 @@
     "HtmlUrl": "https://github.com/eed3si9n/gigahorse",
     "SharedStarrers": 1,
     "OpenIssuesCount": 16,
-    "StargazersCount": 99,
+    "StargazersCount": 100,
     "ForksCount": 12
   },
   {
@@ -931,9 +940,9 @@
     "Name": "play-json",
     "HtmlUrl": "https://github.com/playframework/play-json",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 34,
-    "StargazersCount": 168,
-    "ForksCount": 69
+    "OpenIssuesCount": 38,
+    "StargazersCount": 172,
+    "ForksCount": 70
   },
   {
     "Owner": null,
@@ -968,7 +977,7 @@
     "HtmlUrl": "https://github.com/fthomas/crjdt",
     "SharedStarrers": 1,
     "OpenIssuesCount": 5,
-    "StargazersCount": 214,
+    "StargazersCount": 215,
     "ForksCount": 11
   },
   {
@@ -977,7 +986,7 @@
     "HtmlUrl": "https://github.com/mdn/web-dictaphone",
     "SharedStarrers": 1,
     "OpenIssuesCount": 1,
-    "StargazersCount": 156,
+    "StargazersCount": 159,
     "ForksCount": 63
   },
   {
@@ -986,8 +995,8 @@
     "HtmlUrl": "https://github.com/jorgebastida/awslogs",
     "SharedStarrers": 1,
     "OpenIssuesCount": 90,
-    "StargazersCount": 2188,
-    "ForksCount": 146
+    "StargazersCount": 2200,
+    "ForksCount": 147
   },
   {
     "Owner": null,
@@ -995,8 +1004,8 @@
     "HtmlUrl": "https://github.com/awslabs/git-secrets",
     "SharedStarrers": 1,
     "OpenIssuesCount": 22,
-    "StargazersCount": 3992,
-    "ForksCount": 251
+    "StargazersCount": 4014,
+    "ForksCount": 253
   },
   {
     "Owner": null,
@@ -1004,7 +1013,7 @@
     "HtmlUrl": "https://github.com/pimoroni/blinkt",
     "SharedStarrers": 1,
     "OpenIssuesCount": 4,
-    "StargazersCount": 162,
+    "StargazersCount": 164,
     "ForksCount": 64
   },
   {
@@ -1012,8 +1021,8 @@
     "Name": "power-mode-intellij-plugin",
     "HtmlUrl": "https://github.com/axaluss/power-mode-intellij-plugin",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 2,
-    "StargazersCount": 181,
+    "OpenIssuesCount": 3,
+    "StargazersCount": 183,
     "ForksCount": 19
   },
   {
@@ -1021,8 +1030,8 @@
     "Name": "visualvm",
     "HtmlUrl": "https://github.com/oracle/visualvm",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 41,
-    "StargazersCount": 913,
+    "OpenIssuesCount": 42,
+    "StargazersCount": 924,
     "ForksCount": 123
   },
   {
@@ -1030,9 +1039,9 @@
     "Name": "Adafruit_nRF52_Arduino",
     "HtmlUrl": "https://github.com/adafruit/Adafruit_nRF52_Arduino",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 60,
-    "StargazersCount": 116,
-    "ForksCount": 70
+    "OpenIssuesCount": 62,
+    "StargazersCount": 121,
+    "ForksCount": 73
   },
   {
     "Owner": null,
@@ -1040,8 +1049,8 @@
     "HtmlUrl": "https://github.com/adafruit/arduino-board-index",
     "SharedStarrers": 1,
     "OpenIssuesCount": 1,
-    "StargazersCount": 18,
-    "ForksCount": 12
+    "StargazersCount": 19,
+    "ForksCount": 13
   },
   {
     "Owner": null,
@@ -1049,8 +1058,8 @@
     "HtmlUrl": "https://github.com/intel-iot-devkit/tinyb",
     "SharedStarrers": 1,
     "OpenIssuesCount": 58,
-    "StargazersCount": 120,
-    "ForksCount": 62
+    "StargazersCount": 121,
+    "ForksCount": 63
   },
   {
     "Owner": null,
@@ -1058,7 +1067,7 @@
     "HtmlUrl": "https://github.com/adafruit/Adafruit_Python_BluefruitLE",
     "SharedStarrers": 1,
     "OpenIssuesCount": 21,
-    "StargazersCount": 240,
+    "StargazersCount": 242,
     "ForksCount": 88
   },
   {
@@ -1066,9 +1075,9 @@
     "Name": "regexr",
     "HtmlUrl": "https://github.com/gskinner/regexr",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 50,
-    "StargazersCount": 4887,
-    "ForksCount": 542
+    "OpenIssuesCount": 49,
+    "StargazersCount": 4916,
+    "ForksCount": 541
   },
   {
     "Owner": null,
@@ -1076,8 +1085,8 @@
     "HtmlUrl": "https://github.com/minimaxir/big-list-of-naughty-strings",
     "SharedStarrers": 1,
     "OpenIssuesCount": 44,
-    "StargazersCount": 24115,
-    "ForksCount": 996
+    "StargazersCount": 24137,
+    "ForksCount": 997
   },
   {
     "Owner": null,
@@ -1095,7 +1104,7 @@
     "SharedStarrers": 1,
     "OpenIssuesCount": 8,
     "StargazersCount": 69,
-    "ForksCount": 29
+    "ForksCount": 30
   },
   {
     "Owner": null,
@@ -1112,7 +1121,7 @@
     "HtmlUrl": "https://github.com/HubSpot/odometer",
     "SharedStarrers": 1,
     "OpenIssuesCount": 86,
-    "StargazersCount": 6368,
+    "StargazersCount": 6378,
     "ForksCount": 532
   },
   {
@@ -1139,7 +1148,7 @@
     "HtmlUrl": "https://github.com/google/re2j",
     "SharedStarrers": 1,
     "OpenIssuesCount": 14,
-    "StargazersCount": 648,
+    "StargazersCount": 650,
     "ForksCount": 86
   },
   {
@@ -1157,7 +1166,7 @@
     "HtmlUrl": "https://github.com/zeth/inputs",
     "SharedStarrers": 1,
     "OpenIssuesCount": 15,
-    "StargazersCount": 78,
+    "StargazersCount": 79,
     "ForksCount": 22
   },
   {
@@ -1184,7 +1193,7 @@
     "HtmlUrl": "https://github.com/lihaoyi/autowire",
     "SharedStarrers": 1,
     "OpenIssuesCount": 34,
-    "StargazersCount": 319,
+    "StargazersCount": 320,
     "ForksCount": 33
   },
   {
@@ -1210,9 +1219,9 @@
     "Name": "govuk-prototype-kit",
     "HtmlUrl": "https://github.com/alphagov/govuk-prototype-kit",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 51,
+    "OpenIssuesCount": 49,
     "StargazersCount": 181,
-    "ForksCount": 137
+    "ForksCount": 139
   },
   {
     "Owner": null,
@@ -1229,7 +1238,7 @@
     "HtmlUrl": "https://github.com/sebdah/dynamic-dynamodb",
     "SharedStarrers": 1,
     "OpenIssuesCount": 32,
-    "StargazersCount": 583,
+    "StargazersCount": 582,
     "ForksCount": 127
   },
   {
@@ -1238,8 +1247,8 @@
     "HtmlUrl": "https://github.com/50ButtonsEach/fliclib-linux-hci",
     "SharedStarrers": 1,
     "OpenIssuesCount": 30,
-    "StargazersCount": 180,
-    "ForksCount": 29
+    "StargazersCount": 181,
+    "ForksCount": 31
   },
   {
     "Owner": null,
@@ -1247,7 +1256,7 @@
     "HtmlUrl": "https://github.com/adafruit/Adafruit-WebIDE",
     "SharedStarrers": 1,
     "OpenIssuesCount": 4,
-    "StargazersCount": 437,
+    "StargazersCount": 438,
     "ForksCount": 75
   },
   {
@@ -1255,9 +1264,9 @@
     "Name": "FastLED",
     "HtmlUrl": "https://github.com/FastLED/FastLED",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 134,
-    "StargazersCount": 2412,
-    "ForksCount": 594
+    "OpenIssuesCount": 132,
+    "StargazersCount": 2426,
+    "ForksCount": 596
   },
   {
     "Owner": null,
@@ -1274,7 +1283,7 @@
     "HtmlUrl": "https://github.com/guardian/riff-raff",
     "SharedStarrers": 1,
     "OpenIssuesCount": 15,
-    "StargazersCount": 226,
+    "StargazersCount": 227,
     "ForksCount": 17
   },
   {
@@ -1282,8 +1291,8 @@
     "Name": "scanamo",
     "HtmlUrl": "https://github.com/scanamo/scanamo",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 37,
-    "StargazersCount": 182,
+    "OpenIssuesCount": 35,
+    "StargazersCount": 185,
     "ForksCount": 65
   },
   {
@@ -1302,15 +1311,15 @@
     "SharedStarrers": 1,
     "OpenIssuesCount": 10,
     "StargazersCount": 178,
-    "ForksCount": 68
+    "ForksCount": 69
   },
   {
     "Owner": null,
     "Name": "circe",
     "HtmlUrl": "https://github.com/circe/circe",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 112,
-    "StargazersCount": 1422,
+    "OpenIssuesCount": 106,
+    "StargazersCount": 1430,
     "ForksCount": 297
   },
   {
@@ -1320,15 +1329,15 @@
     "SharedStarrers": 1,
     "OpenIssuesCount": 2,
     "StargazersCount": 184,
-    "ForksCount": 12
+    "ForksCount": 11
   },
   {
     "Owner": null,
     "Name": "simulacrum",
     "HtmlUrl": "https://github.com/mpilquist/simulacrum",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 32,
-    "StargazersCount": 678,
+    "OpenIssuesCount": 30,
+    "StargazersCount": 685,
     "ForksCount": 45
   },
   {
@@ -1355,7 +1364,7 @@
     "HtmlUrl": "https://github.com/stevekinney/making-music",
     "SharedStarrers": 1,
     "OpenIssuesCount": 0,
-    "StargazersCount": 64,
+    "StargazersCount": 65,
     "ForksCount": 5
   },
   {
@@ -1399,9 +1408,9 @@
     "Name": "python-zeroconf",
     "HtmlUrl": "https://github.com/jstasiak/python-zeroconf",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 39,
+    "OpenIssuesCount": 41,
     "StargazersCount": 200,
-    "ForksCount": 82
+    "ForksCount": 84
   },
   {
     "Owner": null,
@@ -1418,7 +1427,7 @@
     "HtmlUrl": "https://github.com/adafruit/Adafruit_Python_LED_Backpack",
     "SharedStarrers": 1,
     "OpenIssuesCount": 10,
-    "StargazersCount": 71,
+    "StargazersCount": 73,
     "ForksCount": 52
   },
   {
@@ -1454,8 +1463,8 @@
     "HtmlUrl": "https://github.com/travis-ci/travis-api",
     "SharedStarrers": 1,
     "OpenIssuesCount": 29,
-    "StargazersCount": 225,
-    "ForksCount": 128
+    "StargazersCount": 226,
+    "ForksCount": 130
   },
   {
     "Owner": null,
@@ -1472,26 +1481,26 @@
     "HtmlUrl": "https://github.com/jasondavies/bloomfilter.js",
     "SharedStarrers": 1,
     "OpenIssuesCount": 7,
-    "StargazersCount": 563,
-    "ForksCount": 73
+    "StargazersCount": 566,
+    "ForksCount": 74
   },
   {
     "Owner": null,
     "Name": "jsoup",
     "HtmlUrl": "https://github.com/jhy/jsoup",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 142,
-    "StargazersCount": 6298,
-    "ForksCount": 1522
+    "OpenIssuesCount": 144,
+    "StargazersCount": 6320,
+    "ForksCount": 1527
   },
   {
     "Owner": null,
     "Name": "jwt-scala",
     "HtmlUrl": "https://github.com/pauldijou/jwt-scala",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 10,
-    "StargazersCount": 356,
-    "ForksCount": 61
+    "OpenIssuesCount": 12,
+    "StargazersCount": 358,
+    "ForksCount": 62
   },
   {
     "Owner": null,
@@ -1508,16 +1517,16 @@
     "HtmlUrl": "https://github.com/hyspace/typeahead.js-bootstrap3.less",
     "SharedStarrers": 1,
     "OpenIssuesCount": 11,
-    "StargazersCount": 211,
-    "ForksCount": 64
+    "StargazersCount": 212,
+    "ForksCount": 65
   },
   {
     "Owner": null,
     "Name": "play-bootstrap",
     "HtmlUrl": "https://github.com/adrianhurt/play-bootstrap",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 4,
-    "StargazersCount": 661,
+    "OpenIssuesCount": 5,
+    "StargazersCount": 664,
     "ForksCount": 74
   },
   {
@@ -1525,9 +1534,9 @@
     "Name": "typeahead.js",
     "HtmlUrl": "https://github.com/twitter/typeahead.js",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 478,
-    "StargazersCount": 15351,
-    "ForksCount": 3254
+    "OpenIssuesCount": 480,
+    "StargazersCount": 15361,
+    "ForksCount": 3253
   },
   {
     "Owner": null,
@@ -1561,9 +1570,9 @@
     "Name": "jcabi-github",
     "HtmlUrl": "https://github.com/jcabi/jcabi-github",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 107,
+    "OpenIssuesCount": 103,
     "StargazersCount": 171,
-    "ForksCount": 106
+    "ForksCount": 107
   },
   {
     "Owner": null,
@@ -1580,7 +1589,7 @@
     "HtmlUrl": "https://github.com/tristanjuricek/knockoff",
     "SharedStarrers": 1,
     "OpenIssuesCount": 12,
-    "StargazersCount": 102,
+    "StargazersCount": 101,
     "ForksCount": 19
   },
   {
@@ -1597,9 +1606,9 @@
     "Name": "fs2",
     "HtmlUrl": "https://github.com/functional-streams-for-scala/fs2",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 31,
-    "StargazersCount": 1163,
-    "ForksCount": 300
+    "OpenIssuesCount": 22,
+    "StargazersCount": 1167,
+    "ForksCount": 301
   },
   {
     "Owner": null,
@@ -1607,7 +1616,7 @@
     "HtmlUrl": "https://github.com/Taig/communicator",
     "SharedStarrers": 1,
     "OpenIssuesCount": 0,
-    "StargazersCount": 31,
+    "StargazersCount": 32,
     "ForksCount": 0
   },
   {
@@ -1615,8 +1624,8 @@
     "Name": "sbt-dependency-graph",
     "HtmlUrl": "https://github.com/jrudolph/sbt-dependency-graph",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 42,
-    "StargazersCount": 987,
+    "OpenIssuesCount": 43,
+    "StargazersCount": 992,
     "ForksCount": 84
   },
   {
@@ -1633,8 +1642,8 @@
     "Name": "enumeratum",
     "HtmlUrl": "https://github.com/lloydmeta/enumeratum",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 15,
-    "StargazersCount": 648,
+    "OpenIssuesCount": 16,
+    "StargazersCount": 656,
     "ForksCount": 64
   },
   {
@@ -1642,9 +1651,9 @@
     "Name": "git-subrepo",
     "HtmlUrl": "https://github.com/ingydotnet/git-subrepo",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 147,
-    "StargazersCount": 1479,
-    "ForksCount": 139
+    "OpenIssuesCount": 146,
+    "StargazersCount": 1489,
+    "ForksCount": 140
   },
   {
     "Owner": null,
@@ -1652,7 +1661,7 @@
     "HtmlUrl": "https://github.com/danoz73/RecyclerViewFastScroller",
     "SharedStarrers": 1,
     "OpenIssuesCount": 54,
-    "StargazersCount": 988,
+    "StargazersCount": 989,
     "ForksCount": 209
   },
   {
@@ -1661,7 +1670,7 @@
     "HtmlUrl": "https://github.com/guardian/prout",
     "SharedStarrers": 1,
     "OpenIssuesCount": 7,
-    "StargazersCount": 106,
+    "StargazersCount": 107,
     "ForksCount": 8
   },
   {
@@ -1670,7 +1679,7 @@
     "HtmlUrl": "https://github.com/github/training-utils",
     "SharedStarrers": 1,
     "OpenIssuesCount": 2,
-    "StargazersCount": 98,
+    "StargazersCount": 100,
     "ForksCount": 40
   },
   {
@@ -1678,8 +1687,8 @@
     "Name": "scala-logging",
     "HtmlUrl": "https://github.com/lightbend/scala-logging",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 14,
-    "StargazersCount": 593,
+    "OpenIssuesCount": 15,
+    "StargazersCount": 596,
     "ForksCount": 90
   },
   {
@@ -1687,9 +1696,9 @@
     "Name": "Signal-Android",
     "HtmlUrl": "https://github.com/signalapp/Signal-Android",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 217,
-    "StargazersCount": 10227,
-    "ForksCount": 2674
+    "OpenIssuesCount": 233,
+    "StargazersCount": 10258,
+    "ForksCount": 2687
   },
   {
     "Owner": null,
@@ -1714,8 +1723,8 @@
     "Name": "scala-java8-compat",
     "HtmlUrl": "https://github.com/scala/scala-java8-compat",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 15,
-    "StargazersCount": 310,
+    "OpenIssuesCount": 17,
+    "StargazersCount": 311,
     "ForksCount": 43
   },
   {
@@ -1724,8 +1733,8 @@
     "HtmlUrl": "https://github.com/travis-ci/travis-build",
     "SharedStarrers": 1,
     "OpenIssuesCount": 88,
-    "StargazersCount": 472,
-    "ForksCount": 349
+    "StargazersCount": 473,
+    "ForksCount": 351
   },
   {
     "Owner": null,
@@ -1741,9 +1750,9 @@
     "Name": "breeze",
     "HtmlUrl": "https://github.com/scalanlp/breeze",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 98,
-    "StargazersCount": 2675,
-    "ForksCount": 628
+    "OpenIssuesCount": 99,
+    "StargazersCount": 2676,
+    "ForksCount": 627
   },
   {
     "Owner": null,
@@ -1751,8 +1760,8 @@
     "HtmlUrl": "https://github.com/timehop/sticky-headers-recyclerview",
     "SharedStarrers": 1,
     "OpenIssuesCount": 75,
-    "StargazersCount": 3362,
-    "ForksCount": 708
+    "StargazersCount": 3367,
+    "ForksCount": 711
   },
   {
     "Owner": null,
@@ -1760,7 +1769,7 @@
     "HtmlUrl": "https://github.com/eowise/recyclerview-stickyheaders",
     "SharedStarrers": 1,
     "OpenIssuesCount": 17,
-    "StargazersCount": 971,
+    "StargazersCount": 972,
     "ForksCount": 159
   },
   {
@@ -1804,9 +1813,9 @@
     "Name": "RxAndroid",
     "HtmlUrl": "https://github.com/ReactiveX/RxAndroid",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 1,
-    "StargazersCount": 16666,
-    "ForksCount": 2674
+    "OpenIssuesCount": 3,
+    "StargazersCount": 16706,
+    "ForksCount": 2678
   },
   {
     "Owner": null,
@@ -1814,7 +1823,7 @@
     "HtmlUrl": "https://github.com/non/jawn",
     "SharedStarrers": 1,
     "OpenIssuesCount": 20,
-    "StargazersCount": 321,
+    "StargazersCount": 323,
     "ForksCount": 46
   },
   {
@@ -1849,8 +1858,8 @@
     "Name": "scodec",
     "HtmlUrl": "https://github.com/scodec/scodec",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 15,
-    "StargazersCount": 562,
+    "OpenIssuesCount": 13,
+    "StargazersCount": 563,
     "ForksCount": 77
   },
   {
@@ -1886,8 +1895,8 @@
     "HtmlUrl": "https://github.com/non/spire",
     "SharedStarrers": 1,
     "OpenIssuesCount": 150,
-    "StargazersCount": 1368,
-    "ForksCount": 186
+    "StargazersCount": 1375,
+    "ForksCount": 187
   },
   {
     "Owner": null,
@@ -1904,7 +1913,7 @@
     "HtmlUrl": "https://github.com/seratch/AWScala",
     "SharedStarrers": 1,
     "OpenIssuesCount": 52,
-    "StargazersCount": 595,
+    "StargazersCount": 597,
     "ForksCount": 179
   },
   {
@@ -1913,8 +1922,8 @@
     "HtmlUrl": "https://github.com/creationix/js-git",
     "SharedStarrers": 1,
     "OpenIssuesCount": 46,
-    "StargazersCount": 3415,
-    "ForksCount": 267
+    "StargazersCount": 3426,
+    "ForksCount": 268
   },
   {
     "Owner": null,
@@ -1922,7 +1931,7 @@
     "HtmlUrl": "https://github.com/frewsxcv/graphosaurus",
     "SharedStarrers": 1,
     "OpenIssuesCount": 22,
-    "StargazersCount": 287,
+    "StargazersCount": 289,
     "ForksCount": 34
   },
   {
@@ -1930,16 +1939,16 @@
     "Name": "logback",
     "HtmlUrl": "https://github.com/qos-ch/logback",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 121,
-    "StargazersCount": 1353,
-    "ForksCount": 695
+    "OpenIssuesCount": 122,
+    "StargazersCount": 1358,
+    "ForksCount": 699
   },
   {
     "Owner": null,
     "Name": "status-app",
     "HtmlUrl": "https://github.com/guardian/status-app",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 5,
+    "OpenIssuesCount": 4,
     "StargazersCount": 32,
     "ForksCount": 2
   },
@@ -2003,8 +2012,8 @@
     "HtmlUrl": "https://github.com/twitter/summingbird",
     "SharedStarrers": 1,
     "OpenIssuesCount": 161,
-    "StargazersCount": 1978,
-    "ForksCount": 262
+    "StargazersCount": 1981,
+    "ForksCount": 261
   },
   {
     "Owner": null,
@@ -2038,8 +2047,8 @@
     "Name": "pegdown",
     "HtmlUrl": "https://github.com/sirthias/pegdown",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 90,
-    "StargazersCount": 1222,
+    "OpenIssuesCount": 89,
+    "StargazersCount": 1224,
     "ForksCount": 223
   },
   {
@@ -2048,7 +2057,7 @@
     "HtmlUrl": "https://github.com/paulp/sbt-extras",
     "SharedStarrers": 1,
     "OpenIssuesCount": 11,
-    "StargazersCount": 744,
+    "StargazersCount": 745,
     "ForksCount": 142
   },
   {
@@ -2093,7 +2102,7 @@
     "HtmlUrl": "https://github.com/scala/scala-async",
     "SharedStarrers": 1,
     "OpenIssuesCount": 20,
-    "StargazersCount": 903,
+    "StargazersCount": 909,
     "ForksCount": 77
   },
   {
@@ -2129,7 +2138,7 @@
     "HtmlUrl": "https://github.com/mhagger/git-imerge",
     "SharedStarrers": 1,
     "OpenIssuesCount": 37,
-    "StargazersCount": 1828,
+    "StargazersCount": 1832,
     "ForksCount": 99
   },
   {
@@ -2138,8 +2147,8 @@
     "HtmlUrl": "https://github.com/davatron5000/FitVids.js",
     "SharedStarrers": 1,
     "OpenIssuesCount": 32,
-    "StargazersCount": 4656,
-    "ForksCount": 1009
+    "StargazersCount": 4662,
+    "ForksCount": 1012
   },
   {
     "Owner": null,
@@ -2147,7 +2156,7 @@
     "HtmlUrl": "https://github.com/almende/chap-links-library",
     "SharedStarrers": 1,
     "OpenIssuesCount": 123,
-    "StargazersCount": 581,
+    "StargazersCount": 582,
     "ForksCount": 173
   },
   {
@@ -2156,7 +2165,7 @@
     "HtmlUrl": "https://github.com/ymnk/jzlib",
     "SharedStarrers": 1,
     "OpenIssuesCount": 9,
-    "StargazersCount": 124,
+    "StargazersCount": 125,
     "ForksCount": 62
   },
   {
@@ -2165,8 +2174,8 @@
     "HtmlUrl": "https://github.com/thearn/webcam-pulse-detector",
     "SharedStarrers": 1,
     "OpenIssuesCount": 31,
-    "StargazersCount": 2599,
-    "ForksCount": 398
+    "StargazersCount": 2603,
+    "ForksCount": 400
   },
   {
     "Owner": null,
@@ -2174,8 +2183,8 @@
     "HtmlUrl": "https://github.com/e1ven/Robohash",
     "SharedStarrers": 1,
     "OpenIssuesCount": 5,
-    "StargazersCount": 678,
-    "ForksCount": 106
+    "StargazersCount": 682,
+    "ForksCount": 108
   },
   {
     "Owner": null,
@@ -2192,7 +2201,7 @@
     "HtmlUrl": "https://github.com/shutterstock/rickshaw",
     "SharedStarrers": 1,
     "OpenIssuesCount": 211,
-    "StargazersCount": 6278,
+    "StargazersCount": 6279,
     "ForksCount": 986
   },
   {
@@ -2201,8 +2210,8 @@
     "HtmlUrl": "https://github.com/hakimel/reveal.js",
     "SharedStarrers": 1,
     "OpenIssuesCount": 373,
-    "StargazersCount": 42103,
-    "ForksCount": 12274
+    "StargazersCount": 42229,
+    "ForksCount": 12295
   },
   {
     "Owner": null,
@@ -2219,8 +2228,8 @@
     "HtmlUrl": "https://github.com/ReactiveX/RxJava",
     "SharedStarrers": 1,
     "OpenIssuesCount": 24,
-    "StargazersCount": 35077,
-    "ForksCount": 6078
+    "StargazersCount": 35267,
+    "ForksCount": 6102
   },
   {
     "Owner": null,
@@ -2228,8 +2237,8 @@
     "HtmlUrl": "https://github.com/fyhertz/libstreaming",
     "SharedStarrers": 1,
     "OpenIssuesCount": 219,
-    "StargazersCount": 2275,
-    "ForksCount": 870
+    "StargazersCount": 2287,
+    "ForksCount": 873
   },
   {
     "Owner": null,
@@ -2237,24 +2246,24 @@
     "HtmlUrl": "https://github.com/Teaonly/android-eye",
     "SharedStarrers": 1,
     "OpenIssuesCount": 35,
-    "StargazersCount": 916,
-    "ForksCount": 480
+    "StargazersCount": 919,
+    "ForksCount": 478
   },
   {
     "Owner": null,
     "Name": "sbt-git",
     "HtmlUrl": "https://github.com/sbt/sbt-git",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 20,
-    "StargazersCount": 262,
-    "ForksCount": 79
+    "OpenIssuesCount": 21,
+    "StargazersCount": 263,
+    "ForksCount": 81
   },
   {
     "Owner": null,
     "Name": "sbt-buildinfo",
     "HtmlUrl": "https://github.com/sbt/sbt-buildinfo",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 14,
+    "OpenIssuesCount": 15,
     "StargazersCount": 387,
     "ForksCount": 65
   },
@@ -2264,7 +2273,7 @@
     "HtmlUrl": "https://github.com/ThreeTen/threetenbp",
     "SharedStarrers": 1,
     "OpenIssuesCount": 4,
-    "StargazersCount": 347,
+    "StargazersCount": 349,
     "ForksCount": 76
   },
   {
@@ -2273,8 +2282,8 @@
     "HtmlUrl": "https://github.com/rtyley/bfg-repo-cleaner",
     "SharedStarrers": 1,
     "OpenIssuesCount": 153,
-    "StargazersCount": 4337,
-    "ForksCount": 218
+    "StargazersCount": 4361,
+    "ForksCount": 220
   },
   {
     "Owner": null,
@@ -2291,7 +2300,7 @@
     "HtmlUrl": "https://github.com/nscala-time/nscala-time",
     "SharedStarrers": 1,
     "OpenIssuesCount": 4,
-    "StargazersCount": 775,
+    "StargazersCount": 776,
     "ForksCount": 84
   },
   {
@@ -2299,9 +2308,9 @@
     "Name": "roboguice",
     "HtmlUrl": "https://github.com/roboguice/roboguice",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 150,
-    "StargazersCount": 3868,
-    "ForksCount": 911
+    "OpenIssuesCount": 149,
+    "StargazersCount": 3869,
+    "ForksCount": 909
   },
   {
     "Owner": null,
@@ -2399,7 +2408,7 @@
     "HtmlUrl": "https://github.com/rtyley/roboguice-sherlock",
     "SharedStarrers": 1,
     "OpenIssuesCount": 4,
-    "StargazersCount": 353,
+    "StargazersCount": 352,
     "ForksCount": 107
   },
   {
@@ -2498,8 +2507,8 @@
     "HtmlUrl": "https://github.com/JakeWharton/NineOldAndroids",
     "SharedStarrers": 1,
     "OpenIssuesCount": 42,
-    "StargazersCount": 4422,
-    "ForksCount": 1649
+    "StargazersCount": 4429,
+    "ForksCount": 1648
   },
   {
     "Owner": null,
@@ -2516,16 +2525,16 @@
     "HtmlUrl": "https://github.com/chrisbanes/Android-PullToRefresh",
     "SharedStarrers": 1,
     "OpenIssuesCount": 30,
-    "StargazersCount": 8734,
-    "ForksCount": 5104
+    "StargazersCount": 8740,
+    "ForksCount": 5101
   },
   {
     "Owner": null,
     "Name": "zt-zip",
     "HtmlUrl": "https://github.com/zeroturnaround/zt-zip",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 15,
-    "StargazersCount": 929,
+    "OpenIssuesCount": 16,
+    "StargazersCount": 931,
     "ForksCount": 214
   },
   {
@@ -2569,9 +2578,9 @@
     "Name": "greenDAO",
     "HtmlUrl": "https://github.com/greenrobot/greenDAO",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 149,
-    "StargazersCount": 10444,
-    "ForksCount": 2654
+    "OpenIssuesCount": 150,
+    "StargazersCount": 10479,
+    "ForksCount": 2657
   },
   {
     "Owner": null,
@@ -2579,7 +2588,7 @@
     "HtmlUrl": "https://github.com/sbt/sbt-release",
     "SharedStarrers": 1,
     "OpenIssuesCount": 65,
-    "StargazersCount": 480,
+    "StargazersCount": 481,
     "ForksCount": 135
   },
   {
@@ -2615,7 +2624,7 @@
     "HtmlUrl": "https://github.com/rtyley/spongycastle-eclipse",
     "SharedStarrers": 1,
     "OpenIssuesCount": 0,
-    "StargazersCount": 14,
+    "StargazersCount": 15,
     "ForksCount": 12
   },
   {
@@ -2624,8 +2633,8 @@
     "HtmlUrl": "https://github.com/JakeWharton/ViewPagerIndicator",
     "SharedStarrers": 1,
     "OpenIssuesCount": 215,
-    "StargazersCount": 9879,
-    "ForksCount": 4292
+    "StargazersCount": 9897,
+    "ForksCount": 4294
   },
   {
     "Owner": null,
@@ -2696,8 +2705,8 @@
     "HtmlUrl": "https://github.com/JodaOrg/joda-time",
     "SharedStarrers": 1,
     "OpenIssuesCount": 23,
-    "StargazersCount": 3695,
-    "ForksCount": 772
+    "StargazersCount": 3704,
+    "ForksCount": 776
   },
   {
     "Owner": null,
@@ -2705,7 +2714,7 @@
     "HtmlUrl": "https://github.com/pakerfeldt/android-viewflow",
     "SharedStarrers": 1,
     "OpenIssuesCount": 49,
-    "StargazersCount": 1841,
+    "StargazersCount": 1840,
     "ForksCount": 756
   },
   {
@@ -2750,8 +2759,8 @@
     "HtmlUrl": "https://github.com/eclipse/egit-github",
     "SharedStarrers": 1,
     "OpenIssuesCount": 15,
-    "StargazersCount": 596,
-    "ForksCount": 456
+    "StargazersCount": 598,
+    "ForksCount": 455
   },
   {
     "Owner": null,
@@ -2813,8 +2822,8 @@
     "HtmlUrl": "https://github.com/JakeWharton/ActionBarSherlock",
     "SharedStarrers": 1,
     "OpenIssuesCount": 90,
-    "StargazersCount": 7301,
-    "ForksCount": 3899
+    "StargazersCount": 7300,
+    "ForksCount": 3896
   },
   {
     "Owner": null,
@@ -2849,7 +2858,7 @@
     "HtmlUrl": "https://github.com/slapperwan/gh4a",
     "SharedStarrers": 1,
     "OpenIssuesCount": 126,
-    "StargazersCount": 922,
+    "StargazersCount": 926,
     "ForksCount": 164
   },
   {
@@ -2858,7 +2867,7 @@
     "HtmlUrl": "https://github.com/lift/framework",
     "SharedStarrers": 1,
     "OpenIssuesCount": 141,
-    "StargazersCount": 1171,
+    "StargazersCount": 1172,
     "ForksCount": 267
   },
   {
@@ -2868,7 +2877,7 @@
     "SharedStarrers": 1,
     "OpenIssuesCount": 42,
     "StargazersCount": 2539,
-    "ForksCount": 1128
+    "ForksCount": 1127
   },
   {
     "Owner": null,
@@ -2876,8 +2885,8 @@
     "HtmlUrl": "https://github.com/syntaxhighlighter/syntaxhighlighter",
     "SharedStarrers": 1,
     "OpenIssuesCount": 219,
-    "StargazersCount": 4803,
-    "ForksCount": 1338
+    "StargazersCount": 4813,
+    "ForksCount": 1340
   },
   {
     "Owner": null,
@@ -2895,7 +2904,7 @@
     "SharedStarrers": 1,
     "OpenIssuesCount": 27,
     "StargazersCount": 1361,
-    "ForksCount": 602
+    "ForksCount": 601
   },
   {
     "Owner": null,
@@ -2947,9 +2956,9 @@
     "Name": "scribejava",
     "HtmlUrl": "https://github.com/scribejava/scribejava",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 7,
-    "StargazersCount": 4517,
-    "ForksCount": 1554
+    "OpenIssuesCount": 6,
+    "StargazersCount": 4532,
+    "ForksCount": 1556
   },
   {
     "Owner": null,
@@ -2966,7 +2975,7 @@
     "HtmlUrl": "https://github.com/rtyley/agit",
     "SharedStarrers": 1,
     "OpenIssuesCount": 68,
-    "StargazersCount": 464,
+    "StargazersCount": 466,
     "ForksCount": 105
   },
   {
@@ -2974,9 +2983,9 @@
     "Name": "robolectric",
     "HtmlUrl": "https://github.com/robolectric/robolectric",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 728,
-    "StargazersCount": 4129,
-    "ForksCount": 1124
+    "OpenIssuesCount": 734,
+    "StargazersCount": 4138,
+    "ForksCount": 1125
   },
   {
     "Owner": null,
@@ -3019,9 +3028,9 @@
     "Name": "async",
     "HtmlUrl": "https://github.com/caolan/async",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 7,
-    "StargazersCount": 24546,
-    "ForksCount": 2240
+    "OpenIssuesCount": 9,
+    "StargazersCount": 24581,
+    "ForksCount": 2244
   },
   {
     "Owner": null,
@@ -3038,8 +3047,8 @@
     "HtmlUrl": "https://github.com/facebook/facebook-android-sdk",
     "SharedStarrers": 1,
     "OpenIssuesCount": 0,
-    "StargazersCount": 4591,
-    "ForksCount": 2764
+    "StargazersCount": 4602,
+    "ForksCount": 2770
   },
   {
     "Owner": null,
@@ -3110,8 +3119,8 @@
     "HtmlUrl": "https://github.com/hierynomus/sshj",
     "SharedStarrers": 1,
     "OpenIssuesCount": 90,
-    "StargazersCount": 1244,
-    "ForksCount": 302
+    "StargazersCount": 1249,
+    "ForksCount": 300
   },
   {
     "Owner": null,
@@ -3154,7 +3163,7 @@
     "Name": "sbt-idea",
     "HtmlUrl": "https://github.com/mpeltonen/sbt-idea",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 97,
+    "OpenIssuesCount": 96,
     "StargazersCount": 1101,
     "ForksCount": 157
   },
@@ -3164,8 +3173,8 @@
     "HtmlUrl": "https://github.com/lruiz/MarkdownPapers",
     "SharedStarrers": 1,
     "OpenIssuesCount": 5,
-    "StargazersCount": 154,
-    "ForksCount": 26
+    "StargazersCount": 153,
+    "ForksCount": 25
   },
   {
     "Owner": null,
@@ -3173,8 +3182,8 @@
     "HtmlUrl": "https://github.com/simpligility/maven-android-sdk-deployer",
     "SharedStarrers": 1,
     "OpenIssuesCount": 11,
-    "StargazersCount": 1374,
-    "ForksCount": 469
+    "StargazersCount": 1375,
+    "ForksCount": 470
   },
   {
     "Owner": null,
@@ -3245,7 +3254,7 @@
     "HtmlUrl": "https://github.com/simpligility/android-maven-plugin",
     "SharedStarrers": 1,
     "OpenIssuesCount": 83,
-    "StargazersCount": 1009,
+    "StargazersCount": 1008,
     "ForksCount": 401
   },
   {
@@ -3264,15 +3273,15 @@
     "SharedStarrers": 1,
     "OpenIssuesCount": 199,
     "StargazersCount": 1087,
-    "ForksCount": 436
+    "ForksCount": 437
   },
   {
     "Owner": null,
     "Name": "git",
     "HtmlUrl": "https://github.com/git/git",
     "SharedStarrers": 1,
-    "OpenIssuesCount": 157,
-    "StargazersCount": 23859,
-    "ForksCount": 13888
+    "OpenIssuesCount": 158,
+    "StargazersCount": 23954,
+    "ForksCount": 13946
   }
 ]

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Linq;
 
 namespace NTier_CQS.Anemic
 {
@@ -30,19 +32,12 @@ namespace NTier_CQS.Anemic
         public Order CreateOrder(int customerId, decimal cost, int basketId)
         {
             if (customerId < 1) throw new ArgumentOutOfRangeException(nameof(customerId), customerId, "Customer Id must be set (positive)");
-            if(cost<0) throw new ArgumentOutOfRangeException(nameof(cost), cost,  "cost must be >= 0");
-            if (basketId<1) throw new ArgumentOutOfRangeException(nameof(basketId), basketId,  "Basket Id must be set (positive");
+            // ... more input validation
             
             var customer = _customerRepository.GetCustomer(customerId);
             if (customer == null)
             {
                 throw new InvalidOperationException($"Customer {customerId} does not exist");
-            }
-
-            if (!customer.IsValid())
-            {
-                // because the function is there.
-                // what are we really asking? Can this customer make orders?
             }
             
             var basket = _basketRepository.GetBasket(basketId);
@@ -51,7 +46,14 @@ namespace NTier_CQS.Anemic
                 throw new InvalidOperationException($"Basket {basketId} does not exist");
             }
 
-            return _orderRepository.CreateOrder(customer, basket, cost);
+            var items = basket.Items.Select(i => i.Id);
+            var order = _orderRepository.NewOrder();
+            order.CustomerId = customer.Id;
+            order.Items = items;
+
+            _orderRepository.Save(order);
+
+            return order;
         }
 
         /// <summary>
@@ -84,6 +86,8 @@ namespace NTier_CQS.Anemic
         /// <param name="data"></param>
         public void UpdateOrderStatus(int orderId, string orderStatus, string reason, List<string> data)
         {
+            //ToDo: example update
+            
             _orderRepository.UpdateOrderStatus(orderId, reason, orderStatus);
         }
     }

@@ -10,8 +10,6 @@ namespace GithubScraper
     {
         static void Main(string[] args)
         {
-          
-
             var logger = new LoggerConfiguration()
                 .WriteTo.Console()
                 .MinimumLevel.Debug()
@@ -27,9 +25,10 @@ namespace GithubScraper
                 Console.WriteLine($"{source}: {authStatus}");
             };
 
-            var serviceActor = system.ActorOf(ServiceActor.CreateProps(writer, new FileInfo("./data.json")), ServiceActor.Name);
-            serviceActor.Tell(new ServiceActor.Start());
-
+            var serviceActor = system.ActorOf(
+                ServiceActor.CreateProps(writer, new FileInfo("./data.json")), 
+                ServiceActor.Name);                   
+            
             var input = Console.ReadLine();
             while (input != "quit")
             {

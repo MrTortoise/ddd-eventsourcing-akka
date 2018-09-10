@@ -40,11 +40,6 @@ namespace EventSourcing
             return events.Aggregate(customer, (c, e) => c.Apply(e));
         }
 
-        private Customer SetProviders(IPaymentMethodFactory paymentMethodFactory)
-        {
-            throw new NotImplementedException();
-        }
-
         public static void RegisterAccount(AccountName accountName, string customerName, string email,
             string password, Func<string, string> passwordHasher, DateTime now, Action<AccountName, IEvent> eventWriter)
         {
@@ -92,7 +87,6 @@ namespace EventSourcing
             var paymentMethod = _paymentMethodFactory.GetProvider(e.TypeName, e.ProviderSpecificData);
             var methods = PaymentMethods.Add(paymentMethod.Name, paymentMethod);
             return new Customer(_registeredCustomer, Basket, methods, _paymentMethodFactory); 
-
         }
 
         public void AddItemToBasket(string sku, double cost, int quantity, DateTime addedAt, Action<AccountName, IEvent> eventWriter)

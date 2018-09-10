@@ -64,6 +64,6 @@ namespace NTier_CQS.DomainConnascence.Operations.Write
 
     public class ReadSSomething
     {
-        
+        // in here we could just use a repository pattern to get stuff.
     }
 }

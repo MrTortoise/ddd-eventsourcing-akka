@@ -9,6 +9,7 @@ package-install akka (or however you do it in .net core - I use Rider so have no
 
 ## How to create an actor system?
 
+
 ```csharp
 var cfg = ConfigurationFactory.ParseString(File.ReadAllText("config.hocon"));
 var system = ActorSystem.Create("GitHubScraper", cfg);
@@ -20,7 +21,12 @@ Whats that config.hocon?
 Well you can leave the `cfg` out to begin with. I just wanted to demonstrate how easy it is to load a config file.
 
 ## How to create an Actor?
-
+The simplest way
+```csharp
+var actor = system.ActorOf<DaveActor>();
+```
+But most of the time you will have some dependencies.
+Then you generate properties.
 ```csharp
 var someDependency = new SomeDependency(somethingElse, andAnotherThing);
 var myActorReference = system.ActorOf(Props.Create(()=> new ActorInstance(someDependency)), ActorInstance.Name);
@@ -62,10 +68,21 @@ The caller gets to
 
 
 ## How To Send a message to an Actor?
+if you create one, you can just tell it something
 ```csharp
 var actorRef = system.ActorOf(AnActor.Props(someDependency), AnActor.Name)
 actorRef.Tell(new Message());
 ```
+
+If you cannot have a direct reference (Eg the actor is not known 100% to be local) then you can use actor selection from the context of the current actor to look up a reference via an address
+
+```csharp
+ var actor = Context.ActorSelection(GithubCommanderActor.Path)
+```
+
+I tend to put the path as a `const string` in the actor. Some people maintain a paths file (much like a routes file in mvc) - I hate groupings by type remember.
+
+My folder structures in a project will often (by coincidence ...) map onto the actor heirachy im building.
 
 ## How to deal with a long running bit of code
 
@@ -120,10 +137,40 @@ public class LookMahAStateMachine : ReceiveActor
         Recive<Start>(msg=> Stash.Stash()); // this stashes the message so that when it is waiting it can consume it laster - purley optional a you can choose to let the mesage goto dead letters.
 
         Recieve<DoingWork>(msg=>{
-           _sender.Tell(new WorkCompleted(msg));
-        })
+            /*  do some work 
+            ... maybe pass reference to Self to another
+            ... actor and let it Tell WorkCompleted 
+            */
+           Self.Tell(new WorkCompleted(msg));     
+        });
+
+        Receive<WorkCompleted>(msg=>{
+            _sender.Tell(msg);
+            Become(Waiting);
+            Stash.UnstashAll();
+        });
     }
 }
 
 ```
+
+# Want to possibly put a router onto an actor to enable some kind of fan out (or a behavioural wrapper - think attribute)
+
+```csharp
+  _coordinator =        
+                Context.ActorOf(Props.Create(() => new GithubCoordinatorActor())
+                        .WithRouter(FromConfig.Instance),
+```
+
+The config file might look like
+```hocon
+akka.actor.deployment{
+  /service/commander/coordinator{
+    router = broadcast-pool
+    nr-of-instances = 3
+  }     
+}   
+```
+
+
 

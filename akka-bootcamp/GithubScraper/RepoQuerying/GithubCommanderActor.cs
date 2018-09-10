@@ -47,8 +47,9 @@ namespace GithubScraper.RepoQuerying
         private void BecomesAsking()
         {
             _canAcceptJobSender = Sender;
+            // block, but ask the router for the number of routees. Avoids magic numbers.
             _pendingJobReplies = _coordinator.Ask<Routees>(new GetRoutees())
-                .Result.Members.Count();     
+                .Result.Members.Count();
             Become(Asking);
         }
 
@@ -82,9 +83,12 @@ namespace GithubScraper.RepoQuerying
 
         protected override void PreStart()
         {
-            _coordinator =
-                Context.ActorOf(GithubCoordinatorActor.CreateProps()
-                        .WithRouter(FromConfig.Instance), GithubCoordinatorActor.Name);
+            // create a broadcast router who will ask all 
+            // of them if they're available for work
+            _coordinator =        
+                Context.ActorOf(Props.Create(() => new GithubCoordinatorActor())
+                        .WithRouter(FromConfig.Instance),
+                    GithubCoordinatorActor.Name);
             base.PreStart();
         }
 

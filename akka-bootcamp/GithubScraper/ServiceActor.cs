@@ -28,16 +28,14 @@ namespace GithubScraper
         {
             _statusUpdate = statusUpdate;
             _outputFilePath = outputFilePath;
+            
             _authActor = Context.ActorOf(AuthenticationActor.CreateProps(statusUpdate),
                 AuthenticationActor.Name);
 
-            Receive<Start>(msg =>
-            {
-                Become(Auth);
-            });
+                Become(Waiting);
         }
 
-        private void Auth()
+        private void Waiting()
         {
             Receive<Input>(input => { _authActor.Tell(input); });
                 

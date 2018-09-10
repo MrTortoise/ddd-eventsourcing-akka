@@ -23,6 +23,13 @@ namespace NTier_CQS.Anemic
         public class Id
         {
         }
+
+        public IEnumerable<Item> Items { get; private set; }
+
+        public class Item
+        {
+            public object Id { get; private set; }
+        }
     }
 
     public class CustomerRepository
@@ -35,7 +42,7 @@ namespace NTier_CQS.Anemic
 
     public class OrderRepository
     {
-        public Order CreateOrder(Customer customerId, Basket basket, decimal cost)
+        public Order CreateOrder(Customer customerId, IEnumerable<object> basket, decimal cost)
         {
             throw new NotImplementedException();
         }
@@ -54,11 +61,22 @@ namespace NTier_CQS.Anemic
         {
             throw new NotImplementedException();
         }
+
+        public Order NewOrder()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Save(Order order)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class Customer
     {
         public SomeORMCollectionThatsInOurDomainModel Orders { get; set; }
+        public Customer Id { get; private set; }
 
 
         /// <summary>
@@ -83,6 +101,7 @@ namespace NTier_CQS.Anemic
 
     public class Order
     {
-
+        public Customer CustomerId { get; set; }
+        public IEnumerable<object> Items { get; set; }
     }
 }
