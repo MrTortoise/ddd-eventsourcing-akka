@@ -12,7 +12,7 @@ namespace GithubScraper
     {
         private readonly Action<string, string> _statusUpdate;
         private readonly FileInfo _outputFilePath;
-        private IActorRef _authActor;
+        private readonly IActorRef _authActor;
 
         public const string Name = "service";
         public const string Path = "/user/service";
@@ -50,7 +50,7 @@ namespace GithubScraper
             _statusUpdate(Name, $"Starting: {reason}");
             _statusUpdate(Name, "Enter url of repo to visit");
             Become(Authenicated);
-            Stash.UnstashAll();
+            Stash.UnstashAll();// can become bushy ... see later
         }
 
         private void Authenicated()
@@ -68,14 +68,14 @@ namespace GithubScraper
             });
 
             //launch the window
-            Receive<StartOutputActorSubscription>(window =>
+            Receive<StartOutputActorSubscription>(startMessage =>
             {
                 var resultsActor = Context.ActorOf(
                     RepoResultsActor.CreateProps(_statusUpdate, _outputFilePath));
 
-                _statusUpdate(Name, string.Format("Repos Similar to {0} / {1}", window.Repo.Owner, window.Repo.Repo));
+                _statusUpdate(Name, string.Format("Repos Similar to {0} / {1}", startMessage.Repo.Owner, startMessage.Repo.Repo));
                 
-                window.Coordinator.Tell(new GithubCoordinatorActor.SubscribeToProgressUpdates(resultsActor));
+                startMessage.Coordinator.Tell(new GithubCoordinatorActor.SubscribeToProgressUpdates(resultsActor));
             });
         }
         

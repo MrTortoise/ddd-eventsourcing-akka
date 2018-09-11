@@ -26,7 +26,7 @@ namespace EventSourcing
                 throw new CannotRegisterCustomerAlreadyExistsException(c);
             }
 
-            Customer.RegisterAccount(accountName, c.Name, c.Email, c.Password, _passwordHasher, _dateTimeSource(), _eventWriter);
+            Customer.RegisterAccount(accountName, c.Name, new Email(c.Email), c.Password, _passwordHasher, _dateTimeSource(), _eventWriter);
         }
     }
 }

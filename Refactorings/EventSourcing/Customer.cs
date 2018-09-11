@@ -16,7 +16,7 @@ namespace EventSourcing
         public AccountName AccountName => _registeredCustomer.AccountName;
         public string Name => _registeredCustomer.Name;
         public string Email => _registeredCustomer.Email;
-        public DateTime CreatedAt => _registeredCustomer.CreatedAt;
+        public DateTime CreatedAt  => _registeredCustomer.CreatedAt;
         
         public Basket Basket { get; }
         public ImmutableList<Order> Orders { get; }
@@ -31,6 +31,8 @@ namespace EventSourcing
         private static Customer Load(AccountName accountName, Func<AccountName, IEnumerable<IEvent>> eventSource, IPaymentMethodFactory paymentMethodFactory)
         {
             IEnumerable<dynamic> events = eventSource(accountName);
+        
+   
             if (!events.Any())
             {
                 return None;
@@ -40,11 +42,11 @@ namespace EventSourcing
             return events.Aggregate(customer, (c, e) => c.Apply(e));
         }
 
-        public static void RegisterAccount(AccountName accountName, string customerName, string email,
+        public static void RegisterAccount(AccountName accountName, string customerName, Email email,
             string password, Func<string, string> passwordHasher, DateTime now, Action<AccountName, IEvent> eventWriter)
         {
             eventWriter(accountName,
-                new CustomerRegistered(now, accountName, customerName, email, passwordHasher(password)));
+                new CustomerRegistered(now, accountName, customerName, email.Value, passwordHasher(password)));
         }
 
         private Customer()
@@ -89,12 +91,10 @@ namespace EventSourcing
             return new Customer(_registeredCustomer, Basket, methods, _paymentMethodFactory); 
         }
 
-        public void AddItemToBasket(string sku, double cost, int quantity, DateTime addedAt, Action<AccountName, IEvent> eventWriter)
+        public void AddItemToBasket(SKU sku, Money cost, int quantity, DateTime addedAt, Action<AccountName, IEvent> eventWriter)
         {
-            var s = new SKU(sku);
-            var c = new Money(cost);
-
-            eventWriter(AccountName, new ItemAddedToBasket(s, c, quantity, addedAt));
+            
+            eventWriter(AccountName, new ItemAddedToBasket(sku, cost, quantity, addedAt));
         }
 
         public void PlaceOrder(Action<AccountName, IEvent> eventWriter)
@@ -124,6 +124,16 @@ namespace EventSourcing
             
             eventWriter(AccountName, new PaymentMethodAdded(customersPaymentMethodName, typeName,  providerSpecificData, dateTimeSource()));
         }
+    }
+
+    public class Email
+    {
+        public Email(string value)
+        {
+            Value = value;
+        }
+
+        public string Value { get; }
     }
 
     public class PaymentMethod
